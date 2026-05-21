@@ -142,8 +142,8 @@ Your job: write exactly 20 tweets that FULLY explore this file. Go deep — line
 
 Rules:
 - Each tweet max 240 characters
-- QUOTE ACTUAL CODE from the file where possible — paste short snippets, function signatures, key lines, variable values directly into the tweet. e.g. "`loss = F.cross_entropy(logits, targets)` — one line but it's doing all the heavy lifting of training the GPT model"
-- Be specific, not generic. "The forward() method masks padding tokens using `src_key_padding_mask`" beats "this file handles data"
+- QUOTE ACTUAL CODE from the file where possible — paste short snippets, function signatures, key lines, variable values directly into the tweet. e.g. "'loss = F.cross_entropy(logits, targets)' — one line but it's doing all the heavy lifting of training the GPT model"
+- Be specific, not generic. "The forward() method masks padding tokens using src_key_padding_mask" beats "this file handles data"
 - No hashtags. No emojis unless very natural
 - No repetition across tweets
 - Each tweet must make sense on its own
