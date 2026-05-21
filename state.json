@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Key setup insight: the Python environment is at the 'monorepo root'. This means all your Python dependencies are managed from the top level of the repository.",
     "Running 'uv sync' ensures all dependencies are up-to-date. This command is crucial before executing any scripts, preventing version mismatch issues.",
     "'uv run python GPT1-Project/scripts/run_training.py' does exactly what it says: it executes the training script for the GPT model, initiating the training process.",
     "Alternative setup path: Activate the root '.venv'. This virtual environment isolates project dependencies, ensuring consistent execution across different systems.",
@@ -36,12 +35,12 @@
     "Wrapping up the README: We understand how to set up and run the GPT training script. Up next, we'll explore the scripts that do the heavy lifting!",
     "Stay tuned as we dive deeper into the 'thekingslee/build-an-llm' project. Next, we'll tackle the actual training script—time to get technical!"
   ],
-  "sentTweetsInFile": 3,
-  "totalSent": 3,
+  "sentTweetsInFile": 4,
+  "totalSent": 4,
   "recentTweets": [
-    "Kicking off a deep dive into 'thekingslee/build-an-llm'. We're starting with file 1 of 16: the README.md in the GPT1-Project folder. Let's see what it's all about!",
     "The README.md in the GPT1-Project gives us essential setup instructions. It's our first stop to ensure the Python environment is correctly configured and ready.",
-    "The file's shell commands help you get started: 'uv sync' and 'uv run python GPT1-Project/scripts/run_training.py'. This sets up dependencies and runs training."
+    "The file's shell commands help you get started: 'uv sync' and 'uv run python GPT1-Project/scripts/run_training.py'. This sets up dependencies and runs training.",
+    "Key setup insight: the Python environment is at the 'monorepo root'. This means all your Python dependencies are managed from the top level of the repository."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
