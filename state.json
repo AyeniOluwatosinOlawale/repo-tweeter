@@ -1,5 +1,5 @@
 {
-  "index": 1,
+  "index": 2,
   "files": [
     "GPT1-Project/README.md",
     "pdf_scrape/notebooks/README.md",
@@ -19,7 +19,8 @@
     "web_scrape/scrape_webpage.py"
   ],
   "recentTweets": [
-    "Diving into \"thekingslee/build-an-llm\"! Our journey kicks off with the README.md. It's our map, guiding us to set up the Python environment and run training scripts for GPT1. A solid start to building our own language model!"
+    "Diving into \"thekingslee/build-an-llm\"! Our journey kicks off with the README.md. It's our map, guiding us to set up the Python environment and run training scripts for GPT1. A solid start to building our own language model!",
+    "Tweet 2: Next up, the README in pdf_scrape/notebooks provides a peek into our dataset: text from 160 PDFs by Nigerian authors. The focus here is clean, refined English data, crucial for training a culturally-rich language model."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
