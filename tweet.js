@@ -48,21 +48,24 @@ async function fetchFileContent(repo, filePath) {
 async function generateTweet(filePath, content) {
   const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
   const completion = await openai.chat.completions.create({
-    model: 'gpt-4o-mini',
+    model: 'gpt-4o',
     messages: [
       {
         role: 'system',
-        content:
-          'You write engaging, insightful tweets about source code files for a developer audience. ' +
-          'Be specific about what the code actually does — mention function names, patterns, or techniques when interesting. ' +
-          'Write in a conversational tone. Max 240 characters. No hashtags.',
+        content: `You are a developer who shares genuine, thoughtful observations about code you're reading.
+Write like a real person — curious, a little excited, sometimes surprised.
+Pick ONE specific, interesting thing from the file (a clever pattern, a surprising design choice, a useful technique) and write about it naturally.
+Vary your style: sometimes start with an observation, sometimes a question, sometimes a short story about what the code does.
+Never sound like marketing. No buzzwords. No "This file..." openings. No hashtags.
+Max 240 characters. Sound like a tweet a senior dev would actually post.`,
       },
       {
         role: 'user',
         content: `File: ${filePath}\n\n${content}`,
       },
     ],
-    max_tokens: 120,
+    max_tokens: 150,
+    temperature: 0.9,
   });
   return completion.choices[0].message.content.trim();
 }
