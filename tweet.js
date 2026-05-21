@@ -99,7 +99,7 @@ The repo: ${repoInfo.description || 'a developer project'} (language: ${repoInfo
 This is file ${fileIndex + 1} of ${totalFiles} in the series.
 ${recentContext}
 
-Your job: write exactly 10 tweets that FULLY explore this one file before we move on.
+Your job: write exactly 20 tweets that FULLY explore this one file before we move on.
 Each tweet must cover a DIFFERENT angle. Use this structure as a guide (adapt freely):
   1. What this file is and its role in the project
   2. The core class or function — what it does and how
@@ -110,7 +110,17 @@ Each tweet must cover a DIFFERENT angle. Use this structure as a guide (adapt fr
   7. How this file connects to or depends on other parts of the project
   8. A design trade-off or architectural decision visible in this code
   9. A lesson or insight a developer could learn from studying this file
-  10. A wrap-up of this file + teaser for what's coming next in the series
+  10. The naming conventions or code style choices and what they signal
+  11. Any constants, hyperparameters, or magic numbers and why they matter
+  12. What would break if this file were removed or changed
+  13. The simplest thing this file does — and why that simplicity is intentional
+  14. The most complex thing this file does — broken down simply
+  15. How a beginner should read and understand this file
+  16. What a senior dev would notice or appreciate about this file
+  17. A question this file raises — something left to the reader to think about
+  18. How this file might evolve as the project grows
+  19. One thing the author could have done differently — and the trade-off
+  20. A wrap-up of this file + teaser for what's coming next in the series
 
 Rules:
 - Each tweet max 240 characters
@@ -133,7 +143,7 @@ Return ONLY a valid JSON array of strings, no explanation, no markdown. Example:
       { role: 'system', content: systemPrompt },
       { role: 'user', content: userPrompt },
     ],
-    max_tokens: 2000,
+    max_tokens: 4000,
     temperature: 0.85,
     response_format: { type: 'json_object' },
   });
