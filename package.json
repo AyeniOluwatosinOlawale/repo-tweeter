@@ -1,0 +1,9 @@
+{
+  "name": "repo-tweeter",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "dependencies": {
+    "nodemailer": "^6.9.0",
+    "openai": "^4.0.0"
+  }
+}
