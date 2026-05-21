@@ -95,8 +95,8 @@ async function fetchFileContent(repo, filePath) {
     } catch (_) {}
   }
 
-  // Return up to 12,000 chars — enough to cover most real code files fully
-  return raw.slice(0, 12000);
+  // Return up to 20,000 chars — covers virtually all real code files fully
+  return raw.slice(0, 20000);
 }
 
 // Generate a batch of tweets that fully explore one file from multiple angles
@@ -142,12 +142,12 @@ Your job: write exactly 20 tweets that FULLY explore this file. Go deep — line
 
 Rules:
 - Each tweet max 240 characters
-- Sound like a real developer who READ the code — quote actual function names, variable names, class names, values from the file
-- Be specific, not generic. "The forward() method masks padding tokens using a boolean tensor" beats "this file handles data"
+- QUOTE ACTUAL CODE from the file where possible — paste short snippets, function signatures, key lines, variable values directly into the tweet. e.g. "`loss = F.cross_entropy(logits, targets)` — one line but it's doing all the heavy lifting of training the GPT model"
+- Be specific, not generic. "The forward() method masks padding tokens using `src_key_padding_mask`" beats "this file handles data"
 - No hashtags. No emojis unless very natural
 - No repetition across tweets
 - Each tweet must make sense on its own
-- Write conversationally — like a dev sharing something they genuinely found interesting
+- Write conversationally — like a dev sharing something they genuinely found interesting while reading the code
 ${isFirstFile ? '- Tweet 1 is the series opener: introduce the repo and invite followers to follow along' : ''}
 ${isLastFile ? '- This is the last file: the final tweets should reflect on the whole codebase journey' : ''}
 
