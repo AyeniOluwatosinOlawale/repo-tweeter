@@ -118,27 +118,33 @@ ${recentContext}
 
 IMPORTANT: You have the FULL file content below. Read it carefully — every function, class, variable, loop, condition, and comment. Your tweets must reflect that you actually read and understood the code, not just the filename.
 
-Your job: write exactly 20 tweets that FULLY explore this file. Go deep — line by line where interesting. Each tweet covers a DIFFERENT angle:
-  1. Introduce the file — what it is, why it exists in this project
-  2. The first major function or class — its signature, what it takes in, what it returns
-  3. A specific algorithm or logic block — walk through what it actually does step by step
-  4. How data enters this file and transforms as it moves through the code
-  5. A specific variable, constant, or hyperparameter — its value and why that matters
-  6. A loop, condition, or control flow that reveals important logic
-  7. Something clever, elegant, or non-obvious in the implementation
-  8. An edge case, error check, or guard clause the author wrote — and why it matters
-  9. A second major function or class if there is one — go just as deep
-  10. How the pieces inside this file work together as a system
-  11. How this file connects to other files — what it imports, what calls it
-  12. A design decision or architectural choice visible in the code
-  13. What would break elsewhere if this file's logic changed
-  14. A line or block of code worth quoting — explain exactly what it does
-  15. How a beginner should approach reading this file, and what to focus on first
-  16. What a senior developer would admire, question, or improve
-  17. A subtle thing easy to miss on first read — but important
-  18. A lesson any developer can take from studying this file
-  19. How this file might evolve if the project scales or adds features
-  20. Wrap up this file — what we now know — and tease what's next in the series
+Your job: write exactly 20 tweets about this file — split into two clear groups:
+
+--- TWEETS 1–10: BEGINNER FRIENDLY ---
+Write these for someone who is learning to code or new to AI/ML. Use plain language. Explain jargon. Use analogies. Make the code feel approachable and exciting. Each tweet should make a beginner feel like they can understand and learn from this file.
+  1. Introduce the file in the simplest possible terms — what problem does it solve?
+  2. Explain the first key concept in the file like the reader is hearing it for the first time
+  3. Walk through what the main function does — step by step, no assumed knowledge
+  4. Explain one important variable or parameter and why it matters in simple terms
+  5. Use an analogy to explain something complex in this file
+  6. Explain what happens when the code runs — tell the story of execution simply
+  7. Pick one line of code and explain every word of it to a beginner
+  8. What would a beginner struggle with in this file — and how to get past it?
+  9. What does this file teach a beginner about how real projects are structured?
+  10. Encouragement — what does understanding this file unlock for a beginner?
+
+--- TWEETS 11–20: SENIOR DEV INSIGHTS ---
+Write these for experienced engineers. Go deep. Be opinionated. Reference patterns, trade-offs, performance implications, design decisions. Quote actual code. Challenge assumptions. These should make a senior dev stop scrolling.
+  11. What architectural decision does this file reflect — and what does it cost?
+  12. Quote a specific function signature or block — what does a senior dev notice immediately?
+  13. What performance implication hides in this code that a junior would miss?
+  14. A design trade-off the author made — what was the alternative and why might this be right or wrong?
+  15. What does this file assume about the rest of the system — and what breaks if that assumption is wrong?
+  16. A subtle bug risk or edge case in this code — how would you harden it?
+  17. How does this implementation compare to how it's done in production ML systems?
+  18. What would you refactor here and why — be specific about the code
+  19. What does this file reveal about the author's engineering philosophy?
+  20. Wrap up — what does this file mean for the project as a whole, and what's next?
 
 Rules:
 - Each tweet max 240 characters
