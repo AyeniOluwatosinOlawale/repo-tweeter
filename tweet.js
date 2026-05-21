@@ -188,6 +188,49 @@ Example: ["first tweet text", "second tweet text", "third tweet text"]`;
   throw new Error(`Could not parse tweet batch: ${raw}`);
 }
 
+async function generateTrendingTweet(repoInfo) {
+  const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+  const completion = await openai.chat.completions.create({
+    model: 'gpt-4o',
+    messages: [
+      {
+        role: 'system',
+        content: `You are a developer with a sharp, witty voice on Twitter. You write tweets that go viral in the tech/AI/developer community.
+Write ONE standalone trending tweet — not about a specific file, but a bold, timely, thought-provoking take on AI, LLMs, machine learning, or software engineering.
+The tweet should spark discussion, be opinionated, surprising, or funny — the kind of thing that gets hundreds of retweets.
+Keep it under 240 characters. No hashtags. Sound human. No emojis unless perfect.
+The person tweeting is building an LLM from scratch (context: ${repoInfo.name} — ${repoInfo.description || 'building a language model in Python'}).
+Use that angle if it makes the tweet more interesting.`,
+      },
+      { role: 'user', content: 'Write a trending tweet for today.' },
+    ],
+    max_tokens: 150,
+    temperature: 1.0,
+  });
+  return completion.choices[0].message.content.trim();
+}
+
+async function sendTrendingEmail(tweet) {
+  const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: { user: TO_EMAIL, pass: process.env.GMAIL_APP_PASSWORD },
+  });
+  await transporter.sendMail({
+    from: TO_EMAIL,
+    to: TO_EMAIL,
+    subject: `[Trending Tweet Idea] End of Day 🔥`,
+    text: [
+      '--- TRENDING TWEET IDEA ---',
+      '',
+      tweet,
+      '',
+      `Characters: ${tweet.length}/240`,
+      '',
+      'This is your bonus tweet for today — post it any time for extra reach.',
+    ].join('\n'),
+  });
+}
+
 async function sendEmail(filePath, tweet, tweetNum, totalTweetsInFile, fileIndex, totalFiles) {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
@@ -222,20 +265,21 @@ async function main() {
   let state = {
     fileIndex: 0,
     files: [],
-    pendingTweets: [],   // tweets queued for current file, not yet sent
-    sentTweetsInFile: 0, // how many tweets sent for current file
-    recentTweets: [],    // last 3 sent tweets across all files
+    pendingTweets: [],
+    sentTweetsInFile: 0,
+    totalSent: 0,        // total tweets sent ever — used to trigger trending tweet every 12
+    recentTweets: [],
     repoInfo: null,
   };
 
   if (fs.existsSync(STATE_FILE)) {
     const saved = JSON.parse(fs.readFileSync(STATE_FILE, 'utf8'));
-    // migrate old state shape if needed
     state = {
       fileIndex: saved.fileIndex ?? saved.index ?? 0,
       files: saved.files || [],
       pendingTweets: saved.pendingTweets || [],
       sentTweetsInFile: saved.sentTweetsInFile || 0,
+      totalSent: saved.totalSent || 0,
       recentTweets: saved.recentTweets || [],
       repoInfo: saved.repoInfo || null,
     };
@@ -292,12 +336,22 @@ async function main() {
 
   // Track recent tweets for continuity
   state.recentTweets = [...state.recentTweets, tweet].slice(-3);
+  state.totalSent += 1;
 
   // Move to next file when this one is exhausted
   if (state.pendingTweets.length === 0) {
     console.log(`\nFile exhausted. Moving to next file.`);
     state.fileIndex += 1;
     state.sentTweetsInFile = 0;
+  }
+
+  // Every 12 tweets = end of day — send a trending tweet bonus
+  if (state.totalSent % 12 === 0) {
+    console.log('\nEnd of day — generating trending tweet...');
+    const trending = await generateTrendingTweet(state.repoInfo);
+    console.log(`Trending tweet: "${trending}"`);
+    await sendTrendingEmail(trending);
+    console.log('Trending tweet email sent.');
   }
 
   fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2));
