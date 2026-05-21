@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "'uv run python GPT1-Project/scripts/run_training.py' does exactly what it says: it executes the training script for the GPT model, initiating the training process.",
     "Alternative setup path: Activate the root '.venv'. This virtual environment isolates project dependencies, ensuring consistent execution across different systems.",
     "If you're using an IDE, the README suggests selecting the root '.venv'. This integrates the virtual environment directly with IDE tools, streamlining development.",
     "The README's simplicity is its power. Short, precise setup instructions mean less room for error and a quick path to getting the model up and running.",
@@ -34,12 +33,12 @@
     "Wrapping up the README: We understand how to set up and run the GPT training script. Up next, we'll explore the scripts that do the heavy lifting!",
     "Stay tuned as we dive deeper into the 'thekingslee/build-an-llm' project. Next, we'll tackle the actual training script—time to get technical!"
   ],
-  "sentTweetsInFile": 5,
-  "totalSent": 5,
+  "sentTweetsInFile": 6,
+  "totalSent": 6,
   "recentTweets": [
-    "The file's shell commands help you get started: 'uv sync' and 'uv run python GPT1-Project/scripts/run_training.py'. This sets up dependencies and runs training.",
     "Key setup insight: the Python environment is at the 'monorepo root'. This means all your Python dependencies are managed from the top level of the repository.",
-    "Running 'uv sync' ensures all dependencies are up-to-date. This command is crucial before executing any scripts, preventing version mismatch issues."
+    "Running 'uv sync' ensures all dependencies are up-to-date. This command is crucial before executing any scripts, preventing version mismatch issues.",
+    "'uv run python GPT1-Project/scripts/run_training.py' does exactly what it says: it executes the training script for the GPT model, initiating the training process."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
