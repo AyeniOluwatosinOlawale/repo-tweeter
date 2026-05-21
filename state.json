@@ -1,4 +1,19 @@
 {
-  "index": 0,
-  "files": []
+  "index": 1,
+  "files": [
+    "GPT1-Project/README.md",
+    "GPT1-Project/scripts/run_training.py",
+    "GPT1-Project/src/data/book_corpus.py",
+    "GPT1-Project/src/data/nigerian_corpus.py",
+    "GPT1-Project/src/models/gpt1.py",
+    "GPT1-Project/src/training/train.py",
+    "GPT1-Project/src/utils/config.py",
+    "pdf_scrape/notebooks/01_Refine_Scraped_Data.ipynb",
+    "pdf_scrape/notebooks/02_Upload_to_HuggingFace.ipynb",
+    "pdf_scrape/notebooks/README.md",
+    "pdf_scrape/scrape_local_pdf.py",
+    "pdf_scrape/scraped_pdf.py",
+    "pyproject.toml",
+    "web_scrape/scrape_webpage.py"
+  ]
 }
