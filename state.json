@@ -1,6 +1,29 @@
 {
-  "index": 0,
-  "files": [],
-  "recentTweets": [],
-  "repoInfo": null
+  "index": 1,
+  "files": [
+    "GPT1-Project/README.md",
+    "pdf_scrape/notebooks/README.md",
+    ".gitignore",
+    "pyproject.toml",
+    "GPT1-Project/src/utils/config.py",
+    "GPT1-Project/src/data/book_corpus.py",
+    "GPT1-Project/src/data/nigerian_corpus.py",
+    "GPT1-Project/src/models/gpt1.py",
+    "GPT1-Project/src/training/train.py",
+    "GPT1-Project/scripts/run_training.py",
+    "pdf_scrape/notebooks/01_Refine_Scraped_Data.ipynb",
+    "pdf_scrape/notebooks/02_Upload_to_HuggingFace.ipynb",
+    "pdf_scrape/scrape_local_pdf.py",
+    "pdf_scrape/scraped_pdf.py",
+    "uv.lock",
+    "web_scrape/scrape_webpage.py"
+  ],
+  "recentTweets": [
+    "Diving into \"thekingslee/build-an-llm\"! Our journey kicks off with the README.md. It's our map, guiding us to set up the Python environment and run training scripts for GPT1. A solid start to building our own language model!"
+  ],
+  "repoInfo": {
+    "name": "thekingslee/build-an-llm",
+    "description": "",
+    "language": "Python"
+  }
 }
