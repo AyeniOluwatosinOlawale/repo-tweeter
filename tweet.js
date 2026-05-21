@@ -79,7 +79,24 @@ async function fetchFileContent(repo, filePath) {
   const url = `https://raw.githubusercontent.com/${repo}/HEAD/${filePath}`;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`Failed to fetch file: ${res.status}`);
-  return (await res.text()).slice(0, 4000);
+  const raw = await res.text();
+
+  // For Jupyter notebooks, extract readable cell source instead of raw JSON
+  if (filePath.endsWith('.ipynb')) {
+    try {
+      const nb = JSON.parse(raw);
+      const cells = nb.cells || [];
+      const text = cells.map(cell => {
+        const kind = cell.cell_type === 'code' ? '# [CODE CELL]' : '# [MARKDOWN CELL]';
+        const source = Array.isArray(cell.source) ? cell.source.join('') : cell.source;
+        return `${kind}\n${source}`;
+      }).join('\n\n');
+      return text.slice(0, 12000);
+    } catch (_) {}
+  }
+
+  // Return up to 12,000 chars — enough to cover most real code files fully
+  return raw.slice(0, 12000);
 }
 
 // Generate a batch of tweets that fully explore one file from multiple angles
@@ -93,47 +110,49 @@ async function generateTweetsForFile({ filePath, content, fileIndex, totalFiles,
     ? `\nRecent tweets already posted:\n${recentTweets.map((t, i) => `${i + 1}. "${t}"`).join('\n')}`
     : '';
 
-  const systemPrompt = `You are a developer writing a Twitter series that walks followers through a GitHub repository called "${repoInfo.name}" — file by file, building a complete understanding of the project.
+  const systemPrompt = `You are an experienced developer writing a Twitter series that walks followers through a GitHub repository called "${repoInfo.name}" — file by file, building a deep and complete understanding of the project.
 
 The repo: ${repoInfo.description || 'a developer project'} (language: ${repoInfo.language || 'unknown'}).
 This is file ${fileIndex + 1} of ${totalFiles} in the series.
 ${recentContext}
 
-Your job: write exactly 20 tweets that FULLY explore this one file before we move on.
-Each tweet must cover a DIFFERENT angle. Use this structure as a guide (adapt freely):
-  1. What this file is and its role in the project
-  2. The core class or function — what it does and how
-  3. A specific implementation detail, algorithm, or pattern worth highlighting
-  4. A deeper look at the logic — how data flows or transforms inside this file
-  5. Something interesting, surprising, or clever in the code
-  6. An edge case, guard clause, or error handling choice the author made
-  7. How this file connects to or depends on other parts of the project
-  8. A design trade-off or architectural decision visible in this code
-  9. A lesson or insight a developer could learn from studying this file
-  10. The naming conventions or code style choices and what they signal
-  11. Any constants, hyperparameters, or magic numbers and why they matter
-  12. What would break if this file were removed or changed
-  13. The simplest thing this file does — and why that simplicity is intentional
-  14. The most complex thing this file does — broken down simply
-  15. How a beginner should read and understand this file
-  16. What a senior dev would notice or appreciate about this file
-  17. A question this file raises — something left to the reader to think about
-  18. How this file might evolve as the project grows
-  19. One thing the author could have done differently — and the trade-off
-  20. A wrap-up of this file + teaser for what's coming next in the series
+IMPORTANT: You have the FULL file content below. Read it carefully — every function, class, variable, loop, condition, and comment. Your tweets must reflect that you actually read and understood the code, not just the filename.
+
+Your job: write exactly 20 tweets that FULLY explore this file. Go deep — line by line where interesting. Each tweet covers a DIFFERENT angle:
+  1. Introduce the file — what it is, why it exists in this project
+  2. The first major function or class — its signature, what it takes in, what it returns
+  3. A specific algorithm or logic block — walk through what it actually does step by step
+  4. How data enters this file and transforms as it moves through the code
+  5. A specific variable, constant, or hyperparameter — its value and why that matters
+  6. A loop, condition, or control flow that reveals important logic
+  7. Something clever, elegant, or non-obvious in the implementation
+  8. An edge case, error check, or guard clause the author wrote — and why it matters
+  9. A second major function or class if there is one — go just as deep
+  10. How the pieces inside this file work together as a system
+  11. How this file connects to other files — what it imports, what calls it
+  12. A design decision or architectural choice visible in the code
+  13. What would break elsewhere if this file's logic changed
+  14. A line or block of code worth quoting — explain exactly what it does
+  15. How a beginner should approach reading this file, and what to focus on first
+  16. What a senior developer would admire, question, or improve
+  17. A subtle thing easy to miss on first read — but important
+  18. A lesson any developer can take from studying this file
+  19. How this file might evolve if the project scales or adds features
+  20. Wrap up this file — what we now know — and tease what's next in the series
 
 Rules:
 - Each tweet max 240 characters
-- Sound like a real developer narrating a journey — curious, specific, human
-- No hashtags. No emojis unless very natural.
-- Do NOT repeat points across tweets
-- Each tweet must stand alone and make sense on its own
-- Reference actual function names, class names, variable names from the code
-${isFirstFile ? '- The FIRST tweet of the whole series: introduce the repo and invite followers to follow along' : ''}
-${isLastFile ? '- This is the LAST file: the final tweets should reflect on the whole repo journey' : ''}
+- Sound like a real developer who READ the code — quote actual function names, variable names, class names, values from the file
+- Be specific, not generic. "The forward() method masks padding tokens using a boolean tensor" beats "this file handles data"
+- No hashtags. No emojis unless very natural
+- No repetition across tweets
+- Each tweet must make sense on its own
+- Write conversationally — like a dev sharing something they genuinely found interesting
+${isFirstFile ? '- Tweet 1 is the series opener: introduce the repo and invite followers to follow along' : ''}
+${isLastFile ? '- This is the last file: the final tweets should reflect on the whole codebase journey' : ''}
 
-Return ONLY a raw JSON array of 20 strings — no markdown, no code fences, no explanation before or after. Start your response with [ and end with ].
-Example format: ["first tweet", "second tweet", "third tweet"]`;
+Return ONLY a raw JSON array of 20 strings. No markdown, no code fences, no explanation. Start with [ and end with ].
+Example: ["first tweet text", "second tweet text", "third tweet text"]`;
 
   const userPrompt = `File: ${filePath}\n\nContent:\n${content}`;
 
