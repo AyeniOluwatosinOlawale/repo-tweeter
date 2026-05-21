@@ -132,8 +132,8 @@ Rules:
 ${isFirstFile ? '- The FIRST tweet of the whole series: introduce the repo and invite followers to follow along' : ''}
 ${isLastFile ? '- This is the LAST file: the final tweets should reflect on the whole repo journey' : ''}
 
-Return ONLY a valid JSON array of strings, no explanation, no markdown. Example:
-["tweet one text here", "tweet two text here", "tweet three text here"]`;
+Return ONLY a raw JSON array of 20 strings — no markdown, no code fences, no explanation before or after. Start your response with [ and end with ].
+Example format: ["first tweet", "second tweet", "third tweet"]`;
 
   const userPrompt = `File: ${filePath}\n\nContent:\n${content}`;
 
@@ -145,16 +145,23 @@ Return ONLY a valid JSON array of strings, no explanation, no markdown. Example:
     ],
     max_tokens: 4000,
     temperature: 0.85,
-    response_format: { type: 'json_object' },
   });
 
-  let raw = completion.choices[0].message.content.trim();
+  const raw = completion.choices[0].message.content.trim();
 
-  // GPT sometimes wraps the array in an object like {"tweets": [...]}
+  // Extract JSON array from anywhere in the response text
+  const match = raw.match(/\[[\s\S]*\]/);
+  if (match) {
+    try {
+      const parsed = JSON.parse(match[0]);
+      if (Array.isArray(parsed)) return parsed;
+    } catch (_) {}
+  }
+
+  // Fallback: try parsing the whole response as JSON
   try {
     const parsed = JSON.parse(raw);
     if (Array.isArray(parsed)) return parsed;
-    // find the first array value in the object
     const arr = Object.values(parsed).find(v => Array.isArray(v));
     if (arr) return arr;
   } catch (_) {}
