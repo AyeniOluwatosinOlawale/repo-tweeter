@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Beginners? Focus on ensuring your Python environment is set up as described. This README doesn't overwhelm with info, making it beginner-friendly.",
     "Seasoned devs might question the reliance on 'uv'. It's a concise tool for the job, but they might explore alternatives for dependency management.",
     "Easy to miss: The emphasis on the repository root. Your environment setup hinges on executing commands from the right directory.",
     "Lesson here? Precise environment setup instructions save time. Establishing a standard approach to manage dependencies is gold in collaborative projects.",
@@ -27,12 +26,12 @@
     "Wrapping up the README: We understand how to set up and run the GPT training script. Up next, we'll explore the scripts that do the heavy lifting!",
     "Stay tuned as we dive deeper into the 'thekingslee/build-an-llm' project. Next, we'll tackle the actual training script—time to get technical!"
   ],
-  "sentTweetsInFile": 12,
-  "totalSent": 12,
+  "sentTweetsInFile": 13,
+  "totalSent": 13,
   "recentTweets": [
-    "The 'monorepo root' term hints at a broader architecture choice. All projects in this repo share a common environment, simplifying dependency management.",
     "What if you modify the training script without syncing first? Potential dependency issues could arise, breaking the training initiation.",
-    "Favorite snippet: ```uv sync```. This one command keeps your environment in line with project dependencies—a crucial step often overlooked."
+    "Favorite snippet: ```uv sync```. This one command keeps your environment in line with project dependencies—a crucial step often overlooked.",
+    "Beginners? Focus on ensuring your Python environment is set up as described. This README doesn't overwhelm with info, making it beginner-friendly."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
