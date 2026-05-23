@@ -19,15 +19,14 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Wrapping up the README: We understand how to set up and run the GPT training script. Up next, we'll explore the scripts that do the heavy lifting!",
     "Stay tuned as we dive deeper into the 'thekingslee/build-an-llm' project. Next, we'll tackle the actual training script—time to get technical!"
   ],
-  "sentTweetsInFile": 17,
-  "totalSent": 17,
+  "sentTweetsInFile": 18,
+  "totalSent": 18,
   "recentTweets": [
-    "Easy to miss: The emphasis on the repository root. Your environment setup hinges on executing commands from the right directory.",
     "Lesson here? Precise environment setup instructions save time. Establishing a standard approach to manage dependencies is gold in collaborative projects.",
-    "If the project scales, the README's environment setup instructions will need extra details on handling additional dependencies or modules."
+    "If the project scales, the README's environment setup instructions will need extra details on handling additional dependencies or modules.",
+    "Wrapping up the README: We understand how to set up and run the GPT training script. Up next, we'll explore the scripts that do the heavy lifting!"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
