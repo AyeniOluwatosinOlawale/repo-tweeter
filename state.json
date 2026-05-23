@@ -1,5 +1,5 @@
 {
-  "fileIndex": 0,
+  "fileIndex": 1,
   "files": [
     "GPT1-Project/README.md",
     "pdf_scrape/notebooks/README.md",
@@ -18,15 +18,13 @@
     "uv.lock",
     "web_scrape/scrape_webpage.py"
   ],
-  "pendingTweets": [
-    "Stay tuned as we dive deeper into the 'thekingslee/build-an-llm' project. Next, we'll tackle the actual training script—time to get technical!"
-  ],
-  "sentTweetsInFile": 18,
-  "totalSent": 18,
+  "pendingTweets": [],
+  "sentTweetsInFile": 0,
+  "totalSent": 19,
   "recentTweets": [
-    "Lesson here? Precise environment setup instructions save time. Establishing a standard approach to manage dependencies is gold in collaborative projects.",
     "If the project scales, the README's environment setup instructions will need extra details on handling additional dependencies or modules.",
-    "Wrapping up the README: We understand how to set up and run the GPT training script. Up next, we'll explore the scripts that do the heavy lifting!"
+    "Wrapping up the README: We understand how to set up and run the GPT training script. Up next, we'll explore the scripts that do the heavy lifting!",
+    "Stay tuned as we dive deeper into the 'thekingslee/build-an-llm' project. Next, we'll tackle the actual training script—time to get technical!"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
