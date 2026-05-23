@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The main idea in the file is explaining what this dataset is and how it was created. It started with PDFs of books, then text was extracted and cleaned up for use in AI tasks.",
     "One key aspect is 'language detection'. It's like a filter ensuring only English text gets through, so the AI learns from the right material.",
     "Imagine you have a big box of letters. This file describes how they've sorted and cleaned those letters to build words and sentences, helping AI 'read' just like you would!",
     "When you run this code, it's like taking a wild text from books and taming it until it's structured and ready for AI to learn from. It's a process of refinement and selection.",
@@ -38,12 +37,12 @@
     "The author's philosophy leans towards structured, careful curation and documentation, emphasizing clarity in how datasets are presented and used.",
     "This file's role in the project is foundational. It explains the dataset which is crucial for training AI models. Next, we explore how this data feeds into machine learning workflows."
   ],
-  "sentTweetsInFile": 2,
-  "totalSent": 21,
+  "sentTweetsInFile": 3,
+  "totalSent": 22,
   "recentTweets": [
-    "Stay tuned as we dive deeper into the 'thekingslee/build-an-llm' project. Next, we'll tackle the actual training script—time to get technical!",
     "This file is about a dataset made from 160 books by Nigerian authors, designed to help computers understand and use language. It's like a treasure trove of words and ideas from these books!",
-    "The README file tells us about a 'dataset'. Think of it like a huge library of words from books, but all stored in a way that computers can easily use and understand."
+    "The README file tells us about a 'dataset'. Think of it like a huge library of words from books, but all stored in a way that computers can easily use and understand.",
+    "The main idea in the file is explaining what this dataset is and how it was created. It started with PDFs of books, then text was extracted and cleaned up for use in AI tasks."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
