@@ -19,19 +19,18 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "This file assumes the data is primarily English and uses spell correction accordingly. If texts aren't English, the correction could distort original content.",
     "A subtle risk is the reliance on NLTK for language detection, which might not handle mixed or less common languages well. Adding custom language models could strengthen detection.",
     "Compared to production systems, this setup is relatively simplified. It lacks scalable solutions needed for handling large datasets in real-time operations.",
     "I would refactor the annotation sections to include detailed examples where possible, as these are crucial for understanding dataset quality and use.",
     "The author's philosophy leans towards structured, careful curation and documentation, emphasizing clarity in how datasets are presented and used.",
     "This file's role in the project is foundational. It explains the dataset which is crucial for training AI models. Next, we explore how this data feeds into machine learning workflows."
   ],
-  "sentTweetsInFile": 14,
-  "totalSent": 33,
+  "sentTweetsInFile": 15,
+  "totalSent": 34,
   "recentTweets": [
-    "The 'language: en' and 'license: apache-2.0' tags immediately stand out. To a senior, these define the dataset's applicability and legal use in projects.",
     "A hidden performance implication is the spell correction using NLTK. While helpful, it can be computationally expensive and affect preprocessing time.",
-    "The creation of this dataset uses manual curation. An alternative could be automated methods, but those might miss nuances specific to Nigerian texts and contexts."
+    "The creation of this dataset uses manual curation. An alternative could be automated methods, but those might miss nuances specific to Nigerian texts and contexts.",
+    "This file assumes the data is primarily English and uses spell correction accordingly. If texts aren't English, the correction could distort original content."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
