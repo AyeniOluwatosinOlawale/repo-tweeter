@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "This file shows real-world project structure, with organized sections explaining different dataset parts. It's a roadmap for how professionals document and share their work.",
     "Understanding this file means you're stepping into the world of data handling and preparation for AI. It's the first step to mastering how computers can learn from text!",
     "The architecture of this README reflects a typical dataset card used to standardize data documentation in AI projects. It ensures details are clear and organized.",
     "The 'language: en' and 'license: apache-2.0' tags immediately stand out. To a senior, these define the dataset's applicability and legal use in projects.",
@@ -32,12 +31,12 @@
     "The author's philosophy leans towards structured, careful curation and documentation, emphasizing clarity in how datasets are presented and used.",
     "This file's role in the project is foundational. It explains the dataset which is crucial for training AI models. Next, we explore how this data feeds into machine learning workflows."
   ],
-  "sentTweetsInFile": 8,
-  "totalSent": 27,
+  "sentTweetsInFile": 9,
+  "totalSent": 28,
   "recentTweets": [
-    "When you run this code, it's like taking a wild text from books and taming it until it's structured and ready for AI to learn from. It's a process of refinement and selection.",
     "The line 'tags: - text - ocr - language-modeling' is like labels on a library book. It tells us what the dataset is about and how it can be used.",
-    "Beginners might struggle with terms like 'OCR' (Optical Character Recognition). It's just tech that helps computers read text from images or PDFs. Dive into online resources or tutorials to learn more!"
+    "Beginners might struggle with terms like 'OCR' (Optical Character Recognition). It's just tech that helps computers read text from images or PDFs. Dive into online resources or tutorials to learn more!",
+    "This file shows real-world project structure, with organized sections explaining different dataset parts. It's a roadmap for how professionals document and share their work."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
