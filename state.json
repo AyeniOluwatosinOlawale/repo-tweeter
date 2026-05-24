@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The architecture of this README reflects a typical dataset card used to standardize data documentation in AI projects. It ensures details are clear and organized.",
     "The 'language: en' and 'license: apache-2.0' tags immediately stand out. To a senior, these define the dataset's applicability and legal use in projects.",
     "A hidden performance implication is the spell correction using NLTK. While helpful, it can be computationally expensive and affect preprocessing time.",
     "The creation of this dataset uses manual curation. An alternative could be automated methods, but those might miss nuances specific to Nigerian texts and contexts.",
@@ -30,12 +29,12 @@
     "The author's philosophy leans towards structured, careful curation and documentation, emphasizing clarity in how datasets are presented and used.",
     "This file's role in the project is foundational. It explains the dataset which is crucial for training AI models. Next, we explore how this data feeds into machine learning workflows."
   ],
-  "sentTweetsInFile": 10,
-  "totalSent": 29,
+  "sentTweetsInFile": 11,
+  "totalSent": 30,
   "recentTweets": [
-    "Beginners might struggle with terms like 'OCR' (Optical Character Recognition). It's just tech that helps computers read text from images or PDFs. Dive into online resources or tutorials to learn more!",
     "This file shows real-world project structure, with organized sections explaining different dataset parts. It's a roadmap for how professionals document and share their work.",
-    "Understanding this file means you're stepping into the world of data handling and preparation for AI. It's the first step to mastering how computers can learn from text!"
+    "Understanding this file means you're stepping into the world of data handling and preparation for AI. It's the first step to mastering how computers can learn from text!",
+    "The architecture of this README reflects a typical dataset card used to standardize data documentation in AI projects. It ensures details are clear and organized."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
