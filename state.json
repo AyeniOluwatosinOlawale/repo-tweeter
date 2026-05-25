@@ -1,5 +1,5 @@
 {
-  "fileIndex": 1,
+  "fileIndex": 2,
   "files": [
     "GPT1-Project/README.md",
     "pdf_scrape/notebooks/README.md",
@@ -18,15 +18,13 @@
     "uv.lock",
     "web_scrape/scrape_webpage.py"
   ],
-  "pendingTweets": [
-    "This file's role in the project is foundational. It explains the dataset which is crucial for training AI models. Next, we explore how this data feeds into machine learning workflows."
-  ],
-  "sentTweetsInFile": 19,
-  "totalSent": 38,
+  "pendingTweets": [],
+  "sentTweetsInFile": 0,
+  "totalSent": 39,
   "recentTweets": [
-    "Compared to production systems, this setup is relatively simplified. It lacks scalable solutions needed for handling large datasets in real-time operations.",
     "I would refactor the annotation sections to include detailed examples where possible, as these are crucial for understanding dataset quality and use.",
-    "The author's philosophy leans towards structured, careful curation and documentation, emphasizing clarity in how datasets are presented and used."
+    "The author's philosophy leans towards structured, careful curation and documentation, emphasizing clarity in how datasets are presented and used.",
+    "This file's role in the project is foundational. It explains the dataset which is crucial for training AI models. Next, we explore how this data feeds into machine learning workflows."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
