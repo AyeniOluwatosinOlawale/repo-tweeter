@@ -19,16 +19,15 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "I would refactor the annotation sections to include detailed examples where possible, as these are crucial for understanding dataset quality and use.",
     "The author's philosophy leans towards structured, careful curation and documentation, emphasizing clarity in how datasets are presented and used.",
     "This file's role in the project is foundational. It explains the dataset which is crucial for training AI models. Next, we explore how this data feeds into machine learning workflows."
   ],
-  "sentTweetsInFile": 17,
-  "totalSent": 36,
+  "sentTweetsInFile": 18,
+  "totalSent": 37,
   "recentTweets": [
-    "This file assumes the data is primarily English and uses spell correction accordingly. If texts aren't English, the correction could distort original content.",
     "A subtle risk is the reliance on NLTK for language detection, which might not handle mixed or less common languages well. Adding custom language models could strengthen detection.",
-    "Compared to production systems, this setup is relatively simplified. It lacks scalable solutions needed for handling large datasets in real-time operations."
+    "Compared to production systems, this setup is relatively simplified. It lacks scalable solutions needed for handling large datasets in real-time operations.",
+    "I would refactor the annotation sections to include detailed examples where possible, as these are crucial for understanding dataset quality and use."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
