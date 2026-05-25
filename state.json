@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Think of .gitignore as a filter: it keeps unnecessary files from ending up in your project history. This includes temporary files, logs, and system files that only clutter your repository.",
     "For beginners, .gitignore helps manage clutter. When Git ignores folders like venv/, it means your virtual environment files won't be tracked, making collaboration smoother.",
     "The line '__pycache__/‘ specifies ignoring the folder where Python stores compiled bytecode. Ignoring bytecode avoids unnecessary clutter since it's auto-generated.",
     "Imagine your repo's a tidy room. .gitignore is a rulebook that tells you where to put things like temporary files and where NOT to put them, so you maintain order.",
@@ -39,12 +38,12 @@
     "The file shows an author's philosophy favoring lean repos: focus on code, exclude noise. It's efficient but assumes a shared understanding of external dependencies.",
     "This .gitignore helps maintain a clean, focused repo crucial for collaboration and clarity in 'thekingslee/build-an-llm'. Next, we look at how code interacts with environments."
   ],
-  "sentTweetsInFile": 1,
-  "totalSent": 40,
+  "sentTweetsInFile": 2,
+  "totalSent": 41,
   "recentTweets": [
-    "The author's philosophy leans towards structured, careful curation and documentation, emphasizing clarity in how datasets are presented and used.",
     "This file's role in the project is foundational. It explains the dataset which is crucial for training AI models. Next, we explore how this data feeds into machine learning workflows.",
-    "This file is a .gitignore. It tells Git which files or folders to ignore, meaning they won't be tracked in version control. This helps keep the repo clean from files that don't need to be shared."
+    "This file is a .gitignore. It tells Git which files or folders to ignore, meaning they won't be tracked in version control. This helps keep the repo clean from files that don't need to be shared.",
+    "Think of .gitignore as a filter: it keeps unnecessary files from ending up in your project history. This includes temporary files, logs, and system files that only clutter your repository."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
