@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "A senior dev might notice 'wandb/'—indicating experiment tracking likely via Weights & Biases. But what about '.gitignore' for datasets? That's a project-specific decision.",
     "Performance-wise, ignoring bytecode ('*.py[cod]') prevents repo bloat. But, a junior might miss how it helps maintain fast and lightweight version control operations.",
     "By ignoring 'scraped_pages/' and 'scraped_pages_pdf/', the author opts not to track raw data files—prioritizing code over data versioning. The alternative? A separate data repo.",
     "The file assumes datasets are non-essential in version control ('/GPT1-Project/data/'). If the dataset changes critically, and it's not tracked, your experiments could break.",
@@ -29,12 +28,12 @@
     "The file shows an author's philosophy favoring lean repos: focus on code, exclude noise. It's efficient but assumes a shared understanding of external dependencies.",
     "This .gitignore helps maintain a clean, focused repo crucial for collaboration and clarity in 'thekingslee/build-an-llm'. Next, we look at how code interacts with environments."
   ],
-  "sentTweetsInFile": 11,
-  "totalSent": 50,
+  "sentTweetsInFile": 12,
+  "totalSent": 51,
   "recentTweets": [
-    ".gitignore teaches beginners about project discipline by controlling what's shared in your repo—keeping it focused on necessary code and resources.",
     "Understanding .gitignore helps you avoid cluttered commits. You learn to maintain clean version control, a skill that keeps projects organized and professional!",
-    "This .gitignore reflects an architectural decision to exclude local development files like '__pycache__/' and '.nltk_data/'. It offers cleaner commits but might hide useful debug info."
+    "This .gitignore reflects an architectural decision to exclude local development files like '__pycache__/' and '.nltk_data/'. It offers cleaner commits but might hide useful debug info.",
+    "A senior dev might notice 'wandb/'—indicating experiment tracking likely via Weights & Biases. But what about '.gitignore' for datasets? That's a project-specific decision."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
