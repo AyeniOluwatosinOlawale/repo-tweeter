@@ -1,5 +1,5 @@
 {
-  "fileIndex": 2,
+  "fileIndex": 3,
   "files": [
     "GPT1-Project/README.md",
     "pdf_scrape/notebooks/README.md",
@@ -18,15 +18,13 @@
     "uv.lock",
     "web_scrape/scrape_webpage.py"
   ],
-  "pendingTweets": [
-    "This .gitignore helps maintain a clean, focused repo crucial for collaboration and clarity in 'thekingslee/build-an-llm'. Next, we look at how code interacts with environments."
-  ],
-  "sentTweetsInFile": 19,
-  "totalSent": 58,
+  "pendingTweets": [],
+  "sentTweetsInFile": 0,
+  "totalSent": 59,
   "recentTweets": [
-    "In production ML systems, data management is crucial. Here, ignoring '/GPT1-Project/data/' suggests local-only datasets—less ideal for scalable, reproducible pipelines.",
     "Refactor suggestion: Split project-specific ignores from general ones by grouping sections clearly. E.g., moving 'checkpoints/' and '*.log' together for clarity.",
-    "The file shows an author's philosophy favoring lean repos: focus on code, exclude noise. It's efficient but assumes a shared understanding of external dependencies."
+    "The file shows an author's philosophy favoring lean repos: focus on code, exclude noise. It's efficient but assumes a shared understanding of external dependencies.",
+    "This .gitignore helps maintain a clean, focused repo crucial for collaboration and clarity in 'thekingslee/build-an-llm'. Next, we look at how code interacts with environments."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
