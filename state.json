@@ -19,15 +19,14 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The file shows an author's philosophy favoring lean repos: focus on code, exclude noise. It's efficient but assumes a shared understanding of external dependencies.",
     "This .gitignore helps maintain a clean, focused repo crucial for collaboration and clarity in 'thekingslee/build-an-llm'. Next, we look at how code interacts with environments."
   ],
-  "sentTweetsInFile": 18,
-  "totalSent": 57,
+  "sentTweetsInFile": 19,
+  "totalSent": 58,
   "recentTweets": [
-    "Edge case: If '.nltk_data/' is needed for reproducibility and ignored, you're risking non-reproducible results. Consider documenting data loading steps explicitly.",
     "In production ML systems, data management is crucial. Here, ignoring '/GPT1-Project/data/' suggests local-only datasets—less ideal for scalable, reproducible pipelines.",
-    "Refactor suggestion: Split project-specific ignores from general ones by grouping sections clearly. E.g., moving 'checkpoints/' and '*.log' together for clarity."
+    "Refactor suggestion: Split project-specific ignores from general ones by grouping sections clearly. E.g., moving 'checkpoints/' and '*.log' together for clarity.",
+    "The file shows an author's philosophy favoring lean repos: focus on code, exclude noise. It's efficient but assumes a shared understanding of external dependencies."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
