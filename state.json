@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The first key concept here is 'dependencies'. These are like the ingredients in a cake recipe. You need them for your project to function properly. In this file, we list all the packages the project relies on.",
     "The main part of this file is a list under 'dependencies'. It specifies external Python packages like 'torch' and 'transformers' that we need to install so our code can run smoothly. It's like checking you have all the ingredients before cooking!",
     "Take 'requires-python = \">=3.10\"'. This line ensures that the project runs on Python version 3.10 or newer. It's crucial because some code won't work on older versions, just like how some new apps won't work on old phones.",
     "Think of 'pyproject.toml' as a blueprint for a LEGO set. The 'dependencies' section lists the specific pieces needed, ensuring everything fits together to build the complete project.",
@@ -39,12 +38,12 @@
     "This file suggests the author's value in modernity and flexibility, preferring up-to-date libraries ('>=') to quickly leverage new features, albeit with potential risks.",
     "This file is key to installing and running 'build-an-llm'. Next, we explore how these dependencies interact within the code. A thorough understanding here ensures smoother development cycles."
   ],
-  "sentTweetsInFile": 1,
-  "totalSent": 60,
+  "sentTweetsInFile": 2,
+  "totalSent": 61,
   "recentTweets": [
-    "The file shows an author's philosophy favoring lean repos: focus on code, exclude noise. It's efficient but assumes a shared understanding of external dependencies.",
     "This .gitignore helps maintain a clean, focused repo crucial for collaboration and clarity in 'thekingslee/build-an-llm'. Next, we look at how code interacts with environments.",
-    "Let's dive into the 'pyproject.toml' file of 'build-an-llm'. This file is like a recipe card for your project, listing ingredients (dependencies) and important info like the Python version needed to run the project."
+    "Let's dive into the 'pyproject.toml' file of 'build-an-llm'. This file is like a recipe card for your project, listing ingredients (dependencies) and important info like the Python version needed to run the project.",
+    "The first key concept here is 'dependencies'. These are like the ingredients in a cake recipe. You need them for your project to function properly. In this file, we list all the packages the project relies on."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
