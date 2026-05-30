@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Authors chose 'pyproject.toml' over 'requirements.txt', allowing for more metadata like 'version', 'description', and Python requirements. It's more comprehensive but less straightforward than a plain list of dependencies.",
     "The file assumes compatibility between listed dependencies and that they're available in the specified versions. If a critical library is removed or deprecated, it could halt development.",
     "A subtle bug risk: not pinning exact versions might lead to unpredictable behavior if a dependency updates with breaking changes. Consider locking versions in a production environment.",
     "Compared to production systems, this setup lacks fine-grained dependency control (like Docker or Conda for environment replication), which can lead to variability in different setups.",
@@ -27,12 +26,12 @@
     "This file suggests the author's value in modernity and flexibility, preferring up-to-date libraries ('>=') to quickly leverage new features, albeit with potential risks.",
     "This file is key to installing and running 'build-an-llm'. Next, we explore how these dependencies interact within the code. A thorough understanding here ensures smoother development cycles."
   ],
-  "sentTweetsInFile": 13,
-  "totalSent": 72,
+  "sentTweetsInFile": 14,
+  "totalSent": 73,
   "recentTweets": [
-    "The 'pyproject.toml' reflects a monorepo architecture, housing multiple parts (GPT training, data scraping) under one meta-project. This choice can streamline dependency management but adds complexity too.",
     "Immediately, a senior dev will notice the use of 'torch>=2.10.0' and 'transformers>=5.3.0'. These suggest a focus on leveraging recent advancements in ML, emphasizing high performance.",
-    "A hidden performance implication: using '>=', like 'torch>=2.10.0', risks compatibility issues. Newer versions can introduce bugs or deprecations that might break the project unexpectedly."
+    "A hidden performance implication: using '>=', like 'torch>=2.10.0', risks compatibility issues. Newer versions can introduce bugs or deprecations that might break the project unexpectedly.",
+    "Authors chose 'pyproject.toml' over 'requirements.txt', allowing for more metadata like 'version', 'description', and Python requirements. It's more comprehensive but less straightforward than a plain list of dependencies."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
