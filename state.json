@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Take the line 'BATCH_SIZE: int = 64'. It says we're setting a batch size (a chunk of data) to 64. It's like saying '6 apples = 1 bunch' in a fruit basket.",
     "Beginners might find understanding 'dataclass' tricky. It's a special way to organize code. Reading about it or checking examples can simplify the concept.",
     "This file shows how real projects keep settings tidy. By using a class, it keeps everything in one place, making changes easy and preventing headaches later on.",
     "Mastering this file means you've got a handle on organizing settings for AI projects, paving the way to create well-structured, efficient AI models!",
@@ -34,12 +33,12 @@
     "This file reveals an engineer valuing structured configuration, aligning closely with standard practices for scalability and readability in collaborative projects.",
     "Understanding this file means appreciating the skeleton of how an AI model's training behavior and architecture are defined — a stepping stone for what's next in model development."
   ],
-  "sentTweetsInFile": 6,
-  "totalSent": 85,
+  "sentTweetsInFile": 7,
+  "totalSent": 86,
   "recentTweets": [
-    "One key setting here is the 'BATCH_SIZE'. It's set to 64, meaning the model processes 64 pieces of data at once. It's like studying in chunks of 64 pages instead of the whole book at once.",
     "Imagine training a model like cooking soup. The 'EPOCHS' setting (here it's 100) is like the number of times you taste-test your soup, ensuring the flavor is just right.",
-    "When this code runs, it creates a 'Config' object filled with preset values that guide how your AI model learns and behaves, like setting a GPS before a road trip."
+    "When this code runs, it creates a 'Config' object filled with preset values that guide how your AI model learns and behaves, like setting a GPS before a road trip.",
+    "Take the line 'BATCH_SIZE: int = 64'. It says we're setting a batch size (a chunk of data) to 64. It's like saying '6 apples = 1 bunch' in a fruit basket."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
