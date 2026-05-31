@@ -1,5 +1,5 @@
 {
-  "fileIndex": 3,
+  "fileIndex": 4,
   "files": [
     "GPT1-Project/README.md",
     "pdf_scrape/notebooks/README.md",
@@ -18,15 +18,13 @@
     "uv.lock",
     "web_scrape/scrape_webpage.py"
   ],
-  "pendingTweets": [
-    "This file is key to installing and running 'build-an-llm'. Next, we explore how these dependencies interact within the code. A thorough understanding here ensures smoother development cycles."
-  ],
-  "sentTweetsInFile": 19,
-  "totalSent": 78,
+  "pendingTweets": [],
+  "sentTweetsInFile": 0,
+  "totalSent": 79,
   "recentTweets": [
-    "Compared to production systems, this setup lacks fine-grained dependency control (like Docker or Conda for environment replication), which can lead to variability in different setups.",
     "Refactoring suggestion: Split 'dependencies' into 'dev' and 'prod' groups for a clearer distinction between what's needed in development vs production environments.",
-    "This file suggests the author's value in modernity and flexibility, preferring up-to-date libraries ('>=') to quickly leverage new features, albeit with potential risks."
+    "This file suggests the author's value in modernity and flexibility, preferring up-to-date libraries ('>=') to quickly leverage new features, albeit with potential risks.",
+    "This file is key to installing and running 'build-an-llm'. Next, we explore how these dependencies interact within the code. A thorough understanding here ensures smoother development cycles."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
