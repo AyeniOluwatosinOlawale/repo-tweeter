@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "One key setting here is the 'BATCH_SIZE'. It's set to 64, meaning the model processes 64 pieces of data at once. It's like studying in chunks of 64 pages instead of the whole book at once.",
     "Imagine training a model like cooking soup. The 'EPOCHS' setting (here it's 100) is like the number of times you taste-test your soup, ensuring the flavor is just right.",
     "When this code runs, it creates a 'Config' object filled with preset values that guide how your AI model learns and behaves, like setting a GPS before a road trip.",
     "Take the line 'BATCH_SIZE: int = 64'. It says we're setting a batch size (a chunk of data) to 64. It's like saying '6 apples = 1 bunch' in a fruit basket.",
@@ -37,12 +36,12 @@
     "This file reveals an engineer valuing structured configuration, aligning closely with standard practices for scalability and readability in collaborative projects.",
     "Understanding this file means appreciating the skeleton of how an AI model's training behavior and architecture are defined — a stepping stone for what's next in model development."
   ],
-  "sentTweetsInFile": 3,
-  "totalSent": 82,
+  "sentTweetsInFile": 4,
+  "totalSent": 83,
   "recentTweets": [
-    "In this file, we're setting up a list of preferences or settings for our AI project. Think of it like tweaking your video game's settings before you start playing to have the best experience.",
     "The file uses something called a 'dataclass', which is a way to neatly organize our settings. It's like using a custom-made backpack to keep all your AI tools organized.",
-    "Let's walk through the 'Config' class. It's where all the magic happens: from setting the batch size to choosing the number of layers. Each setting is like a knob you can turn to fine-tune your AI model."
+    "Let's walk through the 'Config' class. It's where all the magic happens: from setting the batch size to choosing the number of layers. Each setting is like a knob you can turn to fine-tune your AI model.",
+    "One key setting here is the 'BATCH_SIZE'. It's set to 64, meaning the model processes 64 pieces of data at once. It's like studying in chunks of 64 pages instead of the whole book at once."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
