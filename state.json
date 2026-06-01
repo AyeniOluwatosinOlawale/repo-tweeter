@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Mastering this file means you've got a handle on organizing settings for AI projects, paving the way to create well-structured, efficient AI models!",
     "This file reflects a clear separation of configuration parameters from logic. It's a good design choice, as it allows tweaking settings without touching the code logic.",
     "'DEVICE: str = \"cuda\" if __import__(...) else \"cpu\"' instantly suggests the code is ready for faster GPU training if available, otherwise defaults to CPU.",
     "The 'WARMUP_STEPS' of 2000 implies a learning rate warmup strategy over initial steps. A subtle but crucial performance optimization that avoids early learning instability.",
@@ -31,12 +30,12 @@
     "This file reveals an engineer valuing structured configuration, aligning closely with standard practices for scalability and readability in collaborative projects.",
     "Understanding this file means appreciating the skeleton of how an AI model's training behavior and architecture are defined — a stepping stone for what's next in model development."
   ],
-  "sentTweetsInFile": 9,
-  "totalSent": 88,
+  "sentTweetsInFile": 10,
+  "totalSent": 89,
   "recentTweets": [
-    "Take the line 'BATCH_SIZE: int = 64'. It says we're setting a batch size (a chunk of data) to 64. It's like saying '6 apples = 1 bunch' in a fruit basket.",
     "Beginners might find understanding 'dataclass' tricky. It's a special way to organize code. Reading about it or checking examples can simplify the concept.",
-    "This file shows how real projects keep settings tidy. By using a class, it keeps everything in one place, making changes easy and preventing headaches later on."
+    "This file shows how real projects keep settings tidy. By using a class, it keeps everything in one place, making changes easy and preventing headaches later on.",
+    "Mastering this file means you've got a handle on organizing settings for AI projects, paving the way to create well-structured, efficient AI models!"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
