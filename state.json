@@ -19,18 +19,17 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "With 'TOTAL_TRAINING_STEPS' at 100000, a potential risk is overfitting if data isn't large enough. A safeguard is monitoring training and validation losses closely.",
     "Here, model architecture is set statically (e.g., 'EMBED_SIZE: int = 768'). In production, dynamic adjustments via config files or CLI args might enhance flexibility.",
     "Refactoring suggestion: Consider environment variables for paths like 'CHECKPOINT_DIR'. This allows more adaptable deployment scenarios without hardcoding paths.",
     "This file reveals an engineer valuing structured configuration, aligning closely with standard practices for scalability and readability in collaborative projects.",
     "Understanding this file means appreciating the skeleton of how an AI model's training behavior and architecture are defined — a stepping stone for what's next in model development."
   ],
-  "sentTweetsInFile": 15,
-  "totalSent": 94,
+  "sentTweetsInFile": 16,
+  "totalSent": 95,
   "recentTweets": [
-    "The 'WARMUP_STEPS' of 2000 implies a learning rate warmup strategy over initial steps. A subtle but crucial performance optimization that avoids early learning instability.",
     "The choice of 'EARLY_STOPPING_PATIENCE: int = 3' suggests a balanced design. It stops training early if improvement stalls for 3 rounds, preventing overfitting.",
-    "This file assumes Torch's GPU support. If the environment lacks CUDA, it defaults to 'cpu', but if this assumption fails, performance drops significantly."
+    "This file assumes Torch's GPU support. If the environment lacks CUDA, it defaults to 'cpu', but if this assumption fails, performance drops significantly.",
+    "With 'TOTAL_TRAINING_STEPS' at 100000, a potential risk is overfitting if data isn't large enough. A safeguard is monitoring training and validation losses closely."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
