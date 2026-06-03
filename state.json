@@ -1,5 +1,5 @@
 {
-  "fileIndex": 4,
+  "fileIndex": 5,
   "files": [
     "GPT1-Project/README.md",
     "pdf_scrape/notebooks/README.md",
@@ -18,15 +18,13 @@
     "uv.lock",
     "web_scrape/scrape_webpage.py"
   ],
-  "pendingTweets": [
-    "Understanding this file means appreciating the skeleton of how an AI model's training behavior and architecture are defined — a stepping stone for what's next in model development."
-  ],
-  "sentTweetsInFile": 19,
-  "totalSent": 98,
+  "pendingTweets": [],
+  "sentTweetsInFile": 0,
+  "totalSent": 99,
   "recentTweets": [
-    "Here, model architecture is set statically (e.g., 'EMBED_SIZE: int = 768'). In production, dynamic adjustments via config files or CLI args might enhance flexibility.",
     "Refactoring suggestion: Consider environment variables for paths like 'CHECKPOINT_DIR'. This allows more adaptable deployment scenarios without hardcoding paths.",
-    "This file reveals an engineer valuing structured configuration, aligning closely with standard practices for scalability and readability in collaborative projects."
+    "This file reveals an engineer valuing structured configuration, aligning closely with standard practices for scalability and readability in collaborative projects.",
+    "Understanding this file means appreciating the skeleton of how an AI model's training behavior and architecture are defined — a stepping stone for what's next in model development."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
