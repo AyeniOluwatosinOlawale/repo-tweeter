@@ -19,15 +19,14 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "This file reveals an engineer valuing structured configuration, aligning closely with standard practices for scalability and readability in collaborative projects.",
     "Understanding this file means appreciating the skeleton of how an AI model's training behavior and architecture are defined — a stepping stone for what's next in model development."
   ],
-  "sentTweetsInFile": 18,
-  "totalSent": 97,
+  "sentTweetsInFile": 19,
+  "totalSent": 98,
   "recentTweets": [
-    "With 'TOTAL_TRAINING_STEPS' at 100000, a potential risk is overfitting if data isn't large enough. A safeguard is monitoring training and validation losses closely.",
     "Here, model architecture is set statically (e.g., 'EMBED_SIZE: int = 768'). In production, dynamic adjustments via config files or CLI args might enhance flexibility.",
-    "Refactoring suggestion: Consider environment variables for paths like 'CHECKPOINT_DIR'. This allows more adaptable deployment scenarios without hardcoding paths."
+    "Refactoring suggestion: Consider environment variables for paths like 'CHECKPOINT_DIR'. This allows more adaptable deployment scenarios without hardcoding paths.",
+    "This file reveals an engineer valuing structured configuration, aligning closely with standard practices for scalability and readability in collaborative projects."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
