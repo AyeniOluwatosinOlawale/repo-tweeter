@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The file introduces a class called 'GPTDataset'. Think of it like a special container that holds our text data and serves it in portions suitable for our model. 🍽",
     "The main function, 'load_tokens', takes text data and splits it for training, validating, and testing our model. Imagine cutting a pie into slices to share with friends!",
     "The 'seq_len' parameter decides how many words our model looks at in one go. It's like the number of words you remember when trying to recall a sentence. 📖",
     "Consider 'load_local_corpus_data' as a vacuum cleaner collecting text from files. It reads all .txt files from a folder, cleans them up, and puts everything together!",
@@ -39,12 +38,12 @@
     "The author values flexibility and robustness, evidenced by dynamic sequence length and thorough error messages. It reveals an approach centered on adaptability.",
     "This file sets up data for model training, a vital step in building an AI. Next, the project can focus on refining the training loop and optimizing model performance."
   ],
-  "sentTweetsInFile": 1,
-  "totalSent": 100,
+  "sentTweetsInFile": 2,
+  "totalSent": 101,
   "recentTweets": [
-    "This file reveals an engineer valuing structured configuration, aligning closely with standard practices for scalability and readability in collaborative projects.",
     "Understanding this file means appreciating the skeleton of how an AI model's training behavior and architecture are defined — a stepping stone for what's next in model development.",
-    "Let's explore a file from the 'thekingslee/build-an-llm' repo that gets text data ready for our AI model to learn from! It's like preparing ingredients before cooking your favorite dish."
+    "Let's explore a file from the 'thekingslee/build-an-llm' repo that gets text data ready for our AI model to learn from! It's like preparing ingredients before cooking your favorite dish.",
+    "The file introduces a class called 'GPTDataset'. Think of it like a special container that holds our text data and serves it in portions suitable for our model. 🍽"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
