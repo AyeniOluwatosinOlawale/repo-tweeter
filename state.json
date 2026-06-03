@@ -18,13 +18,33 @@
     "uv.lock",
     "web_scrape/scrape_webpage.py"
   ],
-  "pendingTweets": [],
-  "sentTweetsInFile": 0,
-  "totalSent": 99,
+  "pendingTweets": [
+    "The file introduces a class called 'GPTDataset'. Think of it like a special container that holds our text data and serves it in portions suitable for our model. 🍽",
+    "The main function, 'load_tokens', takes text data and splits it for training, validating, and testing our model. Imagine cutting a pie into slices to share with friends!",
+    "The 'seq_len' parameter decides how many words our model looks at in one go. It's like the number of words you remember when trying to recall a sentence. 📖",
+    "Consider 'load_local_corpus_data' as a vacuum cleaner collecting text from files. It reads all .txt files from a folder, cleans them up, and puts everything together!",
+    "When you run the code, it loads lots of text, splits the stories into pieces, and translates them into numbers the AI can understand. It’s like turning a novel into braille for a blind reader.",
+    "Examining 'train_end = int(train_split * len(all_texts))': 'int()' means whole numbers, 'train_split' is a fraction of data, and 'len()' counts total texts. This line calculates where training data ends.",
+    "Beginners might struggle with understanding 'tokenization'. It's converting words into numbers. If stuck, think of it as turning letters into secret codes!",
+    "This file shows you how to organize code to load, clean, and prepare data. Notice the clear steps and error handling. It's a neat demo of real-world coding!",
+    "Understanding this file helps unlock how data gets ready for AI to 'digest'. It's an essential step in AI and ML projects, setting the stage for the model to train and learn!",
+    "Architecturally, this file highlights modular data handling with 'load_local_corpus_data' and 'load_huggingface_corpus_data'. The cost? A dependency on structured file paths and correct formats.",
+    "Scanning 'def prepare_dataloader(tokens, config, split):', a senior dev notes the dynamic sequence length adjustment. It's smart for flexibility but could hide data issues.",
+    "Performance-wise, the repeated calls to 'tokenizer.encode()' in 'load_tokens' can be memory-intensive. Batch processing might be more efficient.",
+    "The choice to load datasets via 'load_dataset' from HuggingFace improves compatibility and integration. However, local fallbacks could enhance reliability.",
+    "This file assumes data is always available. If 'local_texts' or 'bookcorpus_texts' is empty, the system breaks. Adding checks or defaults would help.",
+    "A subtle bug could arise if 'len(tokens) < config.SEQ_LEN' but not handled properly. Ensuring sequence adjustments don't introduce off-by-one errors is key.",
+    "Compared to production ML setups, this implementation is less scalable. Production systems would prioritize batch processing and optimized token storage.",
+    "Refactoring idea: Use a generator for 'load_tokens' to yield tokens efficiently. This could reduce memory usage and improve processing speed.",
+    "The author values flexibility and robustness, evidenced by dynamic sequence length and thorough error messages. It reveals an approach centered on adaptability.",
+    "This file sets up data for model training, a vital step in building an AI. Next, the project can focus on refining the training loop and optimizing model performance."
+  ],
+  "sentTweetsInFile": 1,
+  "totalSent": 100,
   "recentTweets": [
-    "Refactoring suggestion: Consider environment variables for paths like 'CHECKPOINT_DIR'. This allows more adaptable deployment scenarios without hardcoding paths.",
     "This file reveals an engineer valuing structured configuration, aligning closely with standard practices for scalability and readability in collaborative projects.",
-    "Understanding this file means appreciating the skeleton of how an AI model's training behavior and architecture are defined — a stepping stone for what's next in model development."
+    "Understanding this file means appreciating the skeleton of how an AI model's training behavior and architecture are defined — a stepping stone for what's next in model development.",
+    "Let's explore a file from the 'thekingslee/build-an-llm' repo that gets text data ready for our AI model to learn from! It's like preparing ingredients before cooking your favorite dish."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
