@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Consider 'load_local_corpus_data' as a vacuum cleaner collecting text from files. It reads all .txt files from a folder, cleans them up, and puts everything together!",
     "When you run the code, it loads lots of text, splits the stories into pieces, and translates them into numbers the AI can understand. It’s like turning a novel into braille for a blind reader.",
     "Examining 'train_end = int(train_split * len(all_texts))': 'int()' means whole numbers, 'train_split' is a fraction of data, and 'len()' counts total texts. This line calculates where training data ends.",
     "Beginners might struggle with understanding 'tokenization'. It's converting words into numbers. If stuck, think of it as turning letters into secret codes!",
@@ -36,12 +35,12 @@
     "The author values flexibility and robustness, evidenced by dynamic sequence length and thorough error messages. It reveals an approach centered on adaptability.",
     "This file sets up data for model training, a vital step in building an AI. Next, the project can focus on refining the training loop and optimizing model performance."
   ],
-  "sentTweetsInFile": 4,
-  "totalSent": 103,
+  "sentTweetsInFile": 5,
+  "totalSent": 104,
   "recentTweets": [
-    "The file introduces a class called 'GPTDataset'. Think of it like a special container that holds our text data and serves it in portions suitable for our model. 🍽",
     "The main function, 'load_tokens', takes text data and splits it for training, validating, and testing our model. Imagine cutting a pie into slices to share with friends!",
-    "The 'seq_len' parameter decides how many words our model looks at in one go. It's like the number of words you remember when trying to recall a sentence. 📖"
+    "The 'seq_len' parameter decides how many words our model looks at in one go. It's like the number of words you remember when trying to recall a sentence. 📖",
+    "Consider 'load_local_corpus_data' as a vacuum cleaner collecting text from files. It reads all .txt files from a folder, cleans them up, and puts everything together!"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
