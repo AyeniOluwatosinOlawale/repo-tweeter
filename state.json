@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Beginners might struggle with understanding 'tokenization'. It's converting words into numbers. If stuck, think of it as turning letters into secret codes!",
     "This file shows you how to organize code to load, clean, and prepare data. Notice the clear steps and error handling. It's a neat demo of real-world coding!",
     "Understanding this file helps unlock how data gets ready for AI to 'digest'. It's an essential step in AI and ML projects, setting the stage for the model to train and learn!",
     "Architecturally, this file highlights modular data handling with 'load_local_corpus_data' and 'load_huggingface_corpus_data'. The cost? A dependency on structured file paths and correct formats.",
@@ -33,12 +32,12 @@
     "The author values flexibility and robustness, evidenced by dynamic sequence length and thorough error messages. It reveals an approach centered on adaptability.",
     "This file sets up data for model training, a vital step in building an AI. Next, the project can focus on refining the training loop and optimizing model performance."
   ],
-  "sentTweetsInFile": 7,
-  "totalSent": 106,
+  "sentTweetsInFile": 8,
+  "totalSent": 107,
   "recentTweets": [
-    "Consider 'load_local_corpus_data' as a vacuum cleaner collecting text from files. It reads all .txt files from a folder, cleans them up, and puts everything together!",
     "When you run the code, it loads lots of text, splits the stories into pieces, and translates them into numbers the AI can understand. It’s like turning a novel into braille for a blind reader.",
-    "Examining 'train_end = int(train_split * len(all_texts))': 'int()' means whole numbers, 'train_split' is a fraction of data, and 'len()' counts total texts. This line calculates where training data ends."
+    "Examining 'train_end = int(train_split * len(all_texts))': 'int()' means whole numbers, 'train_split' is a fraction of data, and 'len()' counts total texts. This line calculates where training data ends.",
+    "Beginners might struggle with understanding 'tokenization'. It's converting words into numbers. If stuck, think of it as turning letters into secret codes!"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
