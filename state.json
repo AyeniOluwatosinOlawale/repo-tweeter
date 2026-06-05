@@ -19,19 +19,18 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "This file assumes data is always available. If 'local_texts' or 'bookcorpus_texts' is empty, the system breaks. Adding checks or defaults would help.",
     "A subtle bug could arise if 'len(tokens) < config.SEQ_LEN' but not handled properly. Ensuring sequence adjustments don't introduce off-by-one errors is key.",
     "Compared to production ML setups, this implementation is less scalable. Production systems would prioritize batch processing and optimized token storage.",
     "Refactoring idea: Use a generator for 'load_tokens' to yield tokens efficiently. This could reduce memory usage and improve processing speed.",
     "The author values flexibility and robustness, evidenced by dynamic sequence length and thorough error messages. It reveals an approach centered on adaptability.",
     "This file sets up data for model training, a vital step in building an AI. Next, the project can focus on refining the training loop and optimizing model performance."
   ],
-  "sentTweetsInFile": 14,
-  "totalSent": 113,
+  "sentTweetsInFile": 15,
+  "totalSent": 114,
   "recentTweets": [
-    "Scanning 'def prepare_dataloader(tokens, config, split):', a senior dev notes the dynamic sequence length adjustment. It's smart for flexibility but could hide data issues.",
     "Performance-wise, the repeated calls to 'tokenizer.encode()' in 'load_tokens' can be memory-intensive. Batch processing might be more efficient.",
-    "The choice to load datasets via 'load_dataset' from HuggingFace improves compatibility and integration. However, local fallbacks could enhance reliability."
+    "The choice to load datasets via 'load_dataset' from HuggingFace improves compatibility and integration. However, local fallbacks could enhance reliability.",
+    "This file assumes data is always available. If 'local_texts' or 'bookcorpus_texts' is empty, the system breaks. Adding checks or defaults would help."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
