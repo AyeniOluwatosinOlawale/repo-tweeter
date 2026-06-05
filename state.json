@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Scanning 'def prepare_dataloader(tokens, config, split):', a senior dev notes the dynamic sequence length adjustment. It's smart for flexibility but could hide data issues.",
     "Performance-wise, the repeated calls to 'tokenizer.encode()' in 'load_tokens' can be memory-intensive. Batch processing might be more efficient.",
     "The choice to load datasets via 'load_dataset' from HuggingFace improves compatibility and integration. However, local fallbacks could enhance reliability.",
     "This file assumes data is always available. If 'local_texts' or 'bookcorpus_texts' is empty, the system breaks. Adding checks or defaults would help.",
@@ -29,12 +28,12 @@
     "The author values flexibility and robustness, evidenced by dynamic sequence length and thorough error messages. It reveals an approach centered on adaptability.",
     "This file sets up data for model training, a vital step in building an AI. Next, the project can focus on refining the training loop and optimizing model performance."
   ],
-  "sentTweetsInFile": 11,
-  "totalSent": 110,
+  "sentTweetsInFile": 12,
+  "totalSent": 111,
   "recentTweets": [
-    "This file shows you how to organize code to load, clean, and prepare data. Notice the clear steps and error handling. It's a neat demo of real-world coding!",
     "Understanding this file helps unlock how data gets ready for AI to 'digest'. It's an essential step in AI and ML projects, setting the stage for the model to train and learn!",
-    "Architecturally, this file highlights modular data handling with 'load_local_corpus_data' and 'load_huggingface_corpus_data'. The cost? A dependency on structured file paths and correct formats."
+    "Architecturally, this file highlights modular data handling with 'load_local_corpus_data' and 'load_huggingface_corpus_data'. The cost? A dependency on structured file paths and correct formats.",
+    "Scanning 'def prepare_dataloader(tokens, config, split):', a senior dev notes the dynamic sequence length adjustment. It's smart for flexibility but could hide data issues."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
