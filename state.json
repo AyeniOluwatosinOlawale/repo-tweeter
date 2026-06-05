@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The choice to load datasets via 'load_dataset' from HuggingFace improves compatibility and integration. However, local fallbacks could enhance reliability.",
     "This file assumes data is always available. If 'local_texts' or 'bookcorpus_texts' is empty, the system breaks. Adding checks or defaults would help.",
     "A subtle bug could arise if 'len(tokens) < config.SEQ_LEN' but not handled properly. Ensuring sequence adjustments don't introduce off-by-one errors is key.",
     "Compared to production ML setups, this implementation is less scalable. Production systems would prioritize batch processing and optimized token storage.",
@@ -27,12 +26,12 @@
     "The author values flexibility and robustness, evidenced by dynamic sequence length and thorough error messages. It reveals an approach centered on adaptability.",
     "This file sets up data for model training, a vital step in building an AI. Next, the project can focus on refining the training loop and optimizing model performance."
   ],
-  "sentTweetsInFile": 13,
-  "totalSent": 112,
+  "sentTweetsInFile": 14,
+  "totalSent": 113,
   "recentTweets": [
-    "Architecturally, this file highlights modular data handling with 'load_local_corpus_data' and 'load_huggingface_corpus_data'. The cost? A dependency on structured file paths and correct formats.",
     "Scanning 'def prepare_dataloader(tokens, config, split):', a senior dev notes the dynamic sequence length adjustment. It's smart for flexibility but could hide data issues.",
-    "Performance-wise, the repeated calls to 'tokenizer.encode()' in 'load_tokens' can be memory-intensive. Batch processing might be more efficient."
+    "Performance-wise, the repeated calls to 'tokenizer.encode()' in 'load_tokens' can be memory-intensive. Batch processing might be more efficient.",
+    "The choice to load datasets via 'load_dataset' from HuggingFace improves compatibility and integration. However, local fallbacks could enhance reliability."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
