@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The file uses something called a 'Dataset'. Imagine a big library of books. The Dataset helps the AI pick up one book at a time so it can learn from it.",
     "The main function 'load_tokens' does a few things: reads text from a file, splits it into training and testing parts, then converts the text into tokens that the AI understands.",
     "'seq_len' is a key thing here! It's like telling the AI how many words to look at once. It's important because it affects how well the AI can understand patterns in the text.",
     "Think of tokenizing like translating a story into a secret code. The AI can't read normal text, so it needs tokens — the special symbols it understands.",
@@ -39,12 +38,12 @@
     "This file underscores the author's belief in simplicity and clarity. By using straightforward logic, it emphasizes understandability over hyper-optimization.",
     "Overall, this file is crucial for converting raw text to a format suitable for training AI. Next, the focus will likely be on optimizing model performance using this data."
   ],
-  "sentTweetsInFile": 1,
-  "totalSent": 120,
+  "sentTweetsInFile": 2,
+  "totalSent": 121,
   "recentTweets": [
-    "The author values flexibility and robustness, evidenced by dynamic sequence length and thorough error messages. It reveals an approach centered on adaptability.",
     "This file sets up data for model training, a vital step in building an AI. Next, the project can focus on refining the training loop and optimizing model performance.",
-    "Let's dive into 'nigerian_corpus.py'! It prepares the Nigerian Book Corpus data for training AI models. Think of it as a program that gets text ready for the AI to learn from."
+    "Let's dive into 'nigerian_corpus.py'! It prepares the Nigerian Book Corpus data for training AI models. Think of it as a program that gets text ready for the AI to learn from.",
+    "The file uses something called a 'Dataset'. Imagine a big library of books. The Dataset helps the AI pick up one book at a time so it can learn from it."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
