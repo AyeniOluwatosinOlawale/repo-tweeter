@@ -19,15 +19,14 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The author values flexibility and robustness, evidenced by dynamic sequence length and thorough error messages. It reveals an approach centered on adaptability.",
     "This file sets up data for model training, a vital step in building an AI. Next, the project can focus on refining the training loop and optimizing model performance."
   ],
-  "sentTweetsInFile": 18,
-  "totalSent": 117,
+  "sentTweetsInFile": 19,
+  "totalSent": 118,
   "recentTweets": [
-    "A subtle bug could arise if 'len(tokens) < config.SEQ_LEN' but not handled properly. Ensuring sequence adjustments don't introduce off-by-one errors is key.",
     "Compared to production ML setups, this implementation is less scalable. Production systems would prioritize batch processing and optimized token storage.",
-    "Refactoring idea: Use a generator for 'load_tokens' to yield tokens efficiently. This could reduce memory usage and improve processing speed."
+    "Refactoring idea: Use a generator for 'load_tokens' to yield tokens efficiently. This could reduce memory usage and improve processing speed.",
+    "The author values flexibility and robustness, evidenced by dynamic sequence length and thorough error messages. It reveals an approach centered on adaptability."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
