@@ -1,5 +1,5 @@
 {
-  "fileIndex": 5,
+  "fileIndex": 6,
   "files": [
     "GPT1-Project/README.md",
     "pdf_scrape/notebooks/README.md",
@@ -18,15 +18,13 @@
     "uv.lock",
     "web_scrape/scrape_webpage.py"
   ],
-  "pendingTweets": [
-    "This file sets up data for model training, a vital step in building an AI. Next, the project can focus on refining the training loop and optimizing model performance."
-  ],
-  "sentTweetsInFile": 19,
-  "totalSent": 118,
+  "pendingTweets": [],
+  "sentTweetsInFile": 0,
+  "totalSent": 119,
   "recentTweets": [
-    "Compared to production ML setups, this implementation is less scalable. Production systems would prioritize batch processing and optimized token storage.",
     "Refactoring idea: Use a generator for 'load_tokens' to yield tokens efficiently. This could reduce memory usage and improve processing speed.",
-    "The author values flexibility and robustness, evidenced by dynamic sequence length and thorough error messages. It reveals an approach centered on adaptability."
+    "The author values flexibility and robustness, evidenced by dynamic sequence length and thorough error messages. It reveals an approach centered on adaptability.",
+    "This file sets up data for model training, a vital step in building an AI. Next, the project can focus on refining the training loop and optimizing model performance."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
