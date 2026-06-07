@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The file reflects modular design by separating data handling into 'load_tokens' and 'prepare_dataloader'. This compartmentalization simplifies testing and maintenance.",
     "'class GPTDataset(Dataset)' is immediately notable. A senior dev sees this as a PyTorch extension, enabling efficient data loading which is crucial in deep learning tasks.",
     "Performance tip: 'train_tokens.extend(tokenizer.encode(text))' is sequential; consider async processing for large data to improve speed.",
     "A trade-off here: '90% train, 10% test' split. It's straightforward, but not always optimal. Consider validation sets or k-fold cross-validation for robust evaluation.",
@@ -30,12 +29,12 @@
     "This file underscores the author's belief in simplicity and clarity. By using straightforward logic, it emphasizes understandability over hyper-optimization.",
     "Overall, this file is crucial for converting raw text to a format suitable for training AI. Next, the focus will likely be on optimizing model performance using this data."
   ],
-  "sentTweetsInFile": 10,
-  "totalSent": 129,
+  "sentTweetsInFile": 11,
+  "totalSent": 130,
   "recentTweets": [
-    "Beginners might find handling tokens tricky. Remember, tokens are just numbers representing words. Try running small tests to see how text becomes tokens!",
     "This file is a great example of organizing code to handle data. Real projects often split tasks: reading data, processing it, and then using it for training.",
-    "Understanding this file means you're closer to training AI models with your data! It shows how to take raw text and prepare it for machine learning magic."
+    "Understanding this file means you're closer to training AI models with your data! It shows how to take raw text and prepare it for machine learning magic.",
+    "The file reflects modular design by separating data handling into 'load_tokens' and 'prepare_dataloader'. This compartmentalization simplifies testing and maintenance."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
