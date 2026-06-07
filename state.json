@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Beginners might find handling tokens tricky. Remember, tokens are just numbers representing words. Try running small tests to see how text becomes tokens!",
     "This file is a great example of organizing code to handle data. Real projects often split tasks: reading data, processing it, and then using it for training.",
     "Understanding this file means you're closer to training AI models with your data! It shows how to take raw text and prepare it for machine learning magic.",
     "The file reflects modular design by separating data handling into 'load_tokens' and 'prepare_dataloader'. This compartmentalization simplifies testing and maintenance.",
@@ -33,12 +32,12 @@
     "This file underscores the author's belief in simplicity and clarity. By using straightforward logic, it emphasizes understandability over hyper-optimization.",
     "Overall, this file is crucial for converting raw text to a format suitable for training AI. Next, the focus will likely be on optimizing model performance using this data."
   ],
-  "sentTweetsInFile": 7,
-  "totalSent": 126,
+  "sentTweetsInFile": 8,
+  "totalSent": 127,
   "recentTweets": [
-    "Think of tokenizing like translating a story into a secret code. The AI can't read normal text, so it needs tokens — the special symbols it understands.",
     "When the code runs, it reads text, splits it into train and test parts, turns text into tokens, and finally creates batches of data for the AI to learn from.",
-    "Let's break down 'def __getitem__(self, idx)': 'def' defines a function, '__getitem__' is a special method to get items, 'self' refers to the current object, and 'idx' is the index."
+    "Let's break down 'def __getitem__(self, idx)': 'def' defines a function, '__getitem__' is a special method to get items, 'self' refers to the current object, and 'idx' is the index.",
+    "Beginners might find handling tokens tricky. Remember, tokens are just numbers representing words. Try running small tests to see how text becomes tokens!"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
