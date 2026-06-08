@@ -19,17 +19,16 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Compared to production systems, this setup is simpler. Large-scale systems use distributed data loading and more advanced token distribution strategies.",
     "Refactor suggestion: Inline 'train_tokens' and 'test_tokens' creation into list comprehensions for better readability and potentially faster execution.",
     "This file underscores the author's belief in simplicity and clarity. By using straightforward logic, it emphasizes understandability over hyper-optimization.",
     "Overall, this file is crucial for converting raw text to a format suitable for training AI. Next, the focus will likely be on optimizing model performance using this data."
   ],
-  "sentTweetsInFile": 16,
-  "totalSent": 135,
+  "sentTweetsInFile": 17,
+  "totalSent": 136,
   "recentTweets": [
-    "A trade-off here: '90% train, 10% test' split. It's straightforward, but not always optimal. Consider validation sets or k-fold cross-validation for robust evaluation.",
     "This file assumes 'tokens' fit into memory. If 'file_path' points to a massive corpus, memory overflow could occur. Look into streaming or mmap for large datasets.",
-    "Potential bug: 'len(self.data) - self.seq_len' might go negative if 'seq_len' exceeds data length. Add checks to prevent this during Dataset initialization."
+    "Potential bug: 'len(self.data) - self.seq_len' might go negative if 'seq_len' exceeds data length. Add checks to prevent this during Dataset initialization.",
+    "Compared to production systems, this setup is simpler. Large-scale systems use distributed data loading and more advanced token distribution strategies."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
