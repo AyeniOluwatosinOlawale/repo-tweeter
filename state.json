@@ -18,13 +18,33 @@
     "uv.lock",
     "web_scrape/scrape_webpage.py"
   ],
-  "pendingTweets": [],
-  "sentTweetsInFile": 0,
-  "totalSent": 139,
+  "pendingTweets": [
+    "Meet 'SelfAttention': it's a bit like a spotlight at a concert, focusing on important parts of your data so the model knows what to \"pay attention\" to.",
+    "The main function 'forward' in the GPT1 class is a journey: it takes words, assigns them positions, layers them up, cleans and prepares them — finally predicting the next word!",
+    "'embed_size' is a key player here; imagine it as the width of a road. The larger it is, the more information the AI can handle at once!",
+    "Attention is like a group of friends deciding where to have lunch. 'SelfAttention' weighs everyone's input to choose the best spot. Yum!",
+    "When this code runs, it starts by transforming words into a format the computer can understand, processes them through a series of layers, and finally suggests what comes next.",
+    "Look at 'energy = torch.matmul(queries, keys.transpose(-2, -1))' — we're multiplying 'queries' and the transposed 'keys' to find relationships, like finding connections on a map.",
+    "A beginner might find 'head_dim = embed_size // heads' confusing. Tip: this splits a task into parts, like dividing a pizza among friends.",
+    "This file shows how projects are built in layers. Each part, like 'SelfAttention' or 'TransformerBlock', performs a specific task in the bigger picture.",
+    "Understanding this file is like a first step into AI wizardry. You’ll start to see how complex models are built and maybe even create your own soon!",
+    "Architecturally, this file favors modularity with 'SelfAttention' and 'TransformerBlock' as building blocks, promoting reusability but potentially costing performance in simpler models.",
+    "The 'forward' method in 'GPT1' immediately jumps out. Experienced devs note the lack of dropout layers which may affect robustness in training.",
+    "Performance tip: 'seq_len' from 'x.shape' assumes input consistency. Deviations can lead to inefficiencies or errors, crucial when handling dynamic batches.",
+    "The choice to use 'nn.ModuleList' over 'nn.Sequential' hints at flexibility for non-linear stacking of layers but introduces manual iterations.",
+    "The file assumes fixed vocab and embedding sizes. If these change dynamically, e.g., user input size grows, expect crashes without adjustments.",
+    "Risk: 'energy.masked_fill(mask == 0, float(\"-inf\"))' assumes perfect mask alignment. Edge cases could arise with corrupted or mismatched input sizes.",
+    "For production systems, this implementation is basic. Missing dropout, limited hyperparameter tuning, and lack of checkpointing are noticeable gaps.",
+    "Adding dropout layers in 'TransformerBlock' could improve generalization. Also, isolating attention and feedforward logic into separate methods enhances clarity.",
+    "The author values simplicity over features, evidenced by a lean model lacking dropout or advanced optimizations. It suggests a focus on core learning concepts.",
+    "This file brings us closer to realizing GPT-1 in Python from scratch. Next steps likely include training the model and evaluating its real-world utility."
+  ],
+  "sentTweetsInFile": 1,
+  "totalSent": 140,
   "recentTweets": [
-    "Refactor suggestion: Inline 'train_tokens' and 'test_tokens' creation into list comprehensions for better readability and potentially faster execution.",
     "This file underscores the author's belief in simplicity and clarity. By using straightforward logic, it emphasizes understandability over hyper-optimization.",
-    "Overall, this file is crucial for converting raw text to a format suitable for training AI. Next, the focus will likely be on optimizing model performance using this data."
+    "Overall, this file is crucial for converting raw text to a format suitable for training AI. Next, the focus will likely be on optimizing model performance using this data.",
+    "This file sets the stage for building a simple version of a famous AI model called GPT-1. Think of it like learning how to build a toy car before making a real one. 🚗"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
