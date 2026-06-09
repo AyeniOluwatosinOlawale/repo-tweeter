@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Meet 'SelfAttention': it's a bit like a spotlight at a concert, focusing on important parts of your data so the model knows what to \"pay attention\" to.",
     "The main function 'forward' in the GPT1 class is a journey: it takes words, assigns them positions, layers them up, cleans and prepares them — finally predicting the next word!",
     "'embed_size' is a key player here; imagine it as the width of a road. The larger it is, the more information the AI can handle at once!",
     "Attention is like a group of friends deciding where to have lunch. 'SelfAttention' weighs everyone's input to choose the best spot. Yum!",
@@ -39,12 +38,12 @@
     "The author values simplicity over features, evidenced by a lean model lacking dropout or advanced optimizations. It suggests a focus on core learning concepts.",
     "This file brings us closer to realizing GPT-1 in Python from scratch. Next steps likely include training the model and evaluating its real-world utility."
   ],
-  "sentTweetsInFile": 1,
-  "totalSent": 140,
+  "sentTweetsInFile": 2,
+  "totalSent": 141,
   "recentTweets": [
-    "This file underscores the author's belief in simplicity and clarity. By using straightforward logic, it emphasizes understandability over hyper-optimization.",
     "Overall, this file is crucial for converting raw text to a format suitable for training AI. Next, the focus will likely be on optimizing model performance using this data.",
-    "This file sets the stage for building a simple version of a famous AI model called GPT-1. Think of it like learning how to build a toy car before making a real one. 🚗"
+    "This file sets the stage for building a simple version of a famous AI model called GPT-1. Think of it like learning how to build a toy car before making a real one. 🚗",
+    "Meet 'SelfAttention': it's a bit like a spotlight at a concert, focusing on important parts of your data so the model knows what to \"pay attention\" to."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
