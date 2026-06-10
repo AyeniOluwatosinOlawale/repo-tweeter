@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Understanding this file is like a first step into AI wizardry. You’ll start to see how complex models are built and maybe even create your own soon!",
     "Architecturally, this file favors modularity with 'SelfAttention' and 'TransformerBlock' as building blocks, promoting reusability but potentially costing performance in simpler models.",
     "The 'forward' method in 'GPT1' immediately jumps out. Experienced devs note the lack of dropout layers which may affect robustness in training.",
     "Performance tip: 'seq_len' from 'x.shape' assumes input consistency. Deviations can lead to inefficiencies or errors, crucial when handling dynamic batches.",
@@ -31,12 +30,12 @@
     "The author values simplicity over features, evidenced by a lean model lacking dropout or advanced optimizations. It suggests a focus on core learning concepts.",
     "This file brings us closer to realizing GPT-1 in Python from scratch. Next steps likely include training the model and evaluating its real-world utility."
   ],
-  "sentTweetsInFile": 9,
-  "totalSent": 148,
+  "sentTweetsInFile": 10,
+  "totalSent": 149,
   "recentTweets": [
-    "Look at 'energy = torch.matmul(queries, keys.transpose(-2, -1))' — we're multiplying 'queries' and the transposed 'keys' to find relationships, like finding connections on a map.",
     "A beginner might find 'head_dim = embed_size // heads' confusing. Tip: this splits a task into parts, like dividing a pizza among friends.",
-    "This file shows how projects are built in layers. Each part, like 'SelfAttention' or 'TransformerBlock', performs a specific task in the bigger picture."
+    "This file shows how projects are built in layers. Each part, like 'SelfAttention' or 'TransformerBlock', performs a specific task in the bigger picture.",
+    "Understanding this file is like a first step into AI wizardry. You’ll start to see how complex models are built and maybe even create your own soon!"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
