@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Look at 'energy = torch.matmul(queries, keys.transpose(-2, -1))' — we're multiplying 'queries' and the transposed 'keys' to find relationships, like finding connections on a map.",
     "A beginner might find 'head_dim = embed_size // heads' confusing. Tip: this splits a task into parts, like dividing a pizza among friends.",
     "This file shows how projects are built in layers. Each part, like 'SelfAttention' or 'TransformerBlock', performs a specific task in the bigger picture.",
     "Understanding this file is like a first step into AI wizardry. You’ll start to see how complex models are built and maybe even create your own soon!",
@@ -34,12 +33,12 @@
     "The author values simplicity over features, evidenced by a lean model lacking dropout or advanced optimizations. It suggests a focus on core learning concepts.",
     "This file brings us closer to realizing GPT-1 in Python from scratch. Next steps likely include training the model and evaluating its real-world utility."
   ],
-  "sentTweetsInFile": 6,
-  "totalSent": 145,
+  "sentTweetsInFile": 7,
+  "totalSent": 146,
   "recentTweets": [
-    "'embed_size' is a key player here; imagine it as the width of a road. The larger it is, the more information the AI can handle at once!",
     "Attention is like a group of friends deciding where to have lunch. 'SelfAttention' weighs everyone's input to choose the best spot. Yum!",
-    "When this code runs, it starts by transforming words into a format the computer can understand, processes them through a series of layers, and finally suggests what comes next."
+    "When this code runs, it starts by transforming words into a format the computer can understand, processes them through a series of layers, and finally suggests what comes next.",
+    "Look at 'energy = torch.matmul(queries, keys.transpose(-2, -1))' — we're multiplying 'queries' and the transposed 'keys' to find relationships, like finding connections on a map."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
