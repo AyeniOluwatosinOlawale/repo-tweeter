@@ -19,16 +19,15 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Adding dropout layers in 'TransformerBlock' could improve generalization. Also, isolating attention and feedforward logic into separate methods enhances clarity.",
     "The author values simplicity over features, evidenced by a lean model lacking dropout or advanced optimizations. It suggests a focus on core learning concepts.",
     "This file brings us closer to realizing GPT-1 in Python from scratch. Next steps likely include training the model and evaluating its real-world utility."
   ],
-  "sentTweetsInFile": 17,
-  "totalSent": 156,
+  "sentTweetsInFile": 18,
+  "totalSent": 157,
   "recentTweets": [
-    "The file assumes fixed vocab and embedding sizes. If these change dynamically, e.g., user input size grows, expect crashes without adjustments.",
     "Risk: 'energy.masked_fill(mask == 0, float(\"-inf\"))' assumes perfect mask alignment. Edge cases could arise with corrupted or mismatched input sizes.",
-    "For production systems, this implementation is basic. Missing dropout, limited hyperparameter tuning, and lack of checkpointing are noticeable gaps."
+    "For production systems, this implementation is basic. Missing dropout, limited hyperparameter tuning, and lack of checkpointing are noticeable gaps.",
+    "Adding dropout layers in 'TransformerBlock' could improve generalization. Also, isolating attention and feedforward logic into separate methods enhances clarity."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
