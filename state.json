@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The choice to use 'nn.ModuleList' over 'nn.Sequential' hints at flexibility for non-linear stacking of layers but introduces manual iterations.",
     "The file assumes fixed vocab and embedding sizes. If these change dynamically, e.g., user input size grows, expect crashes without adjustments.",
     "Risk: 'energy.masked_fill(mask == 0, float(\"-inf\"))' assumes perfect mask alignment. Edge cases could arise with corrupted or mismatched input sizes.",
     "For production systems, this implementation is basic. Missing dropout, limited hyperparameter tuning, and lack of checkpointing are noticeable gaps.",
@@ -27,12 +26,12 @@
     "The author values simplicity over features, evidenced by a lean model lacking dropout or advanced optimizations. It suggests a focus on core learning concepts.",
     "This file brings us closer to realizing GPT-1 in Python from scratch. Next steps likely include training the model and evaluating its real-world utility."
   ],
-  "sentTweetsInFile": 13,
-  "totalSent": 152,
+  "sentTweetsInFile": 14,
+  "totalSent": 153,
   "recentTweets": [
-    "Architecturally, this file favors modularity with 'SelfAttention' and 'TransformerBlock' as building blocks, promoting reusability but potentially costing performance in simpler models.",
     "The 'forward' method in 'GPT1' immediately jumps out. Experienced devs note the lack of dropout layers which may affect robustness in training.",
-    "Performance tip: 'seq_len' from 'x.shape' assumes input consistency. Deviations can lead to inefficiencies or errors, crucial when handling dynamic batches."
+    "Performance tip: 'seq_len' from 'x.shape' assumes input consistency. Deviations can lead to inefficiencies or errors, crucial when handling dynamic batches.",
+    "The choice to use 'nn.ModuleList' over 'nn.Sequential' hints at flexibility for non-linear stacking of layers but introduces manual iterations."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
