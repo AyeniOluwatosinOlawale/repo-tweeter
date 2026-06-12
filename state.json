@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The main function, 'train()', first gets a 'tokenizer' that breaks sentences into pieces called tokens. This helps the computer understand text better.",
     "Then it loads a dataset of tokens and splits it into parts for training, validation (testing during training), and final testing. It uses a tool called DataLoader to do this.",
     "Imagine you are learning to drive. You practice (train) a lot, occasionally take mock tests (validate), and finally take the driving test (test). That's what these data loaders do.",
     "When this code runs, it keeps track of its progress, saving checkpoints. This means it can stop and continue from where it left off, like pausing a video game.",
@@ -38,12 +37,12 @@
     "The author exhibits a practical engineering mindset, focusing on core functionality and efficient integration with existing tools. There's a clear emphasis on process over customization.",
     "This training script is pivotal for the project, bridging data and model. Next, expect fine-tuning and deployment for real-world application, completing the machine learning lifecycle."
   ],
-  "sentTweetsInFile": 2,
-  "totalSent": 161,
+  "sentTweetsInFile": 3,
+  "totalSent": 162,
   "recentTweets": [
-    "This file brings us closer to realizing GPT-1 in Python from scratch. Next steps likely include training the model and evaluating its real-world utility.",
     "This file is about training a model called GPT-1 using Python. It's like teaching a computer to write by showing it tons of text examples and adjusting it based on how well it's doing.",
-    "It starts by checking if your computer has a special 'brain' called a GPU to make training faster. If not, it uses the regular CPU, which is slower but still works."
+    "It starts by checking if your computer has a special 'brain' called a GPU to make training faster. If not, it uses the regular CPU, which is slower but still works.",
+    "The main function, 'train()', first gets a 'tokenizer' that breaks sentences into pieces called tokens. This helps the computer understand text better."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
