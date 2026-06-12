@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "It starts by checking if your computer has a special 'brain' called a GPU to make training faster. If not, it uses the regular CPU, which is slower but still works.",
     "The main function, 'train()', first gets a 'tokenizer' that breaks sentences into pieces called tokens. This helps the computer understand text better.",
     "Then it loads a dataset of tokens and splits it into parts for training, validation (testing during training), and final testing. It uses a tool called DataLoader to do this.",
     "Imagine you are learning to drive. You practice (train) a lot, occasionally take mock tests (validate), and finally take the driving test (test). That's what these data loaders do.",
@@ -39,12 +38,12 @@
     "The author exhibits a practical engineering mindset, focusing on core functionality and efficient integration with existing tools. There's a clear emphasis on process over customization.",
     "This training script is pivotal for the project, bridging data and model. Next, expect fine-tuning and deployment for real-world application, completing the machine learning lifecycle."
   ],
-  "sentTweetsInFile": 1,
-  "totalSent": 160,
+  "sentTweetsInFile": 2,
+  "totalSent": 161,
   "recentTweets": [
-    "The author values simplicity over features, evidenced by a lean model lacking dropout or advanced optimizations. It suggests a focus on core learning concepts.",
     "This file brings us closer to realizing GPT-1 in Python from scratch. Next steps likely include training the model and evaluating its real-world utility.",
-    "This file is about training a model called GPT-1 using Python. It's like teaching a computer to write by showing it tons of text examples and adjusting it based on how well it's doing."
+    "This file is about training a model called GPT-1 using Python. It's like teaching a computer to write by showing it tons of text examples and adjusting it based on how well it's doing.",
+    "It starts by checking if your computer has a special 'brain' called a GPU to make training faster. If not, it uses the regular CPU, which is slower but still works."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
