@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "A beginner might struggle with how 'schedulers' adjust training speed. Remember, it's like gradually speeding up as you become more confident in driving.",
     "This file teaches beginners how projects are structured: load data, set up models, train, validate, and log progress. It's a clear flow seen in many AI projects.",
     "Understanding this file means you're one step closer to making computers understand text like magic! It's a key part in building your own AI projects.",
     "Architecturally, this file exemplifies a standard training loop structure, relying on libraries like PyTorch and transformers. It’s streamlined but assumes familiarity with these tools.",
@@ -33,12 +32,12 @@
     "The author exhibits a practical engineering mindset, focusing on core functionality and efficient integration with existing tools. There's a clear emphasis on process over customization.",
     "This training script is pivotal for the project, bridging data and model. Next, expect fine-tuning and deployment for real-world application, completing the machine learning lifecycle."
   ],
-  "sentTweetsInFile": 7,
-  "totalSent": 166,
+  "sentTweetsInFile": 8,
+  "totalSent": 167,
   "recentTweets": [
-    "Imagine you are learning to drive. You practice (train) a lot, occasionally take mock tests (validate), and finally take the driving test (test). That's what these data loaders do.",
     "When this code runs, it keeps track of its progress, saving checkpoints. This means it can stop and continue from where it left off, like pausing a video game.",
-    "Take 'tokenizer = GPT2Tokenizer.from_pretrained(\"gpt2\")': 'GPT2Tokenizer' is a tool to break text into words; 'from_pretrained' grabs a ready-made version; 'gpt2' is a specific kind of tokenizer."
+    "Take 'tokenizer = GPT2Tokenizer.from_pretrained(\"gpt2\")': 'GPT2Tokenizer' is a tool to break text into words; 'from_pretrained' grabs a ready-made version; 'gpt2' is a specific kind of tokenizer.",
+    "A beginner might struggle with how 'schedulers' adjust training speed. Remember, it's like gradually speeding up as you become more confident in driving."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
