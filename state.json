@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The 'train()' function immediately raises the question: why 'GPT2Tokenizer' for a GPT1 model? A senior dev might wonder about tokenizer compatibility and model architecture consistency.",
     "Watch out for a hidden performance cost: 'wandb.watch(model, log=\"all\", log_freq=100)' could slow down training if logging becomes bottleneck due to frequent data collection.",
     "Choosing 'torch.optim.AdamW' as an optimizer over, say, SGD, shows a trade-off favoring stability and performance. AdamW is apt for handling more complex architectures at the cost of simplicity.",
     "This file assumes 'CONFIG' is correctly set up, including paths and hyperparameters. Misconfigured 'CONFIG' could lead to failures across data loading, model setup, and training loop.",
@@ -29,12 +28,12 @@
     "The author exhibits a practical engineering mindset, focusing on core functionality and efficient integration with existing tools. There's a clear emphasis on process over customization.",
     "This training script is pivotal for the project, bridging data and model. Next, expect fine-tuning and deployment for real-world application, completing the machine learning lifecycle."
   ],
-  "sentTweetsInFile": 11,
-  "totalSent": 170,
+  "sentTweetsInFile": 12,
+  "totalSent": 171,
   "recentTweets": [
-    "This file teaches beginners how projects are structured: load data, set up models, train, validate, and log progress. It's a clear flow seen in many AI projects.",
     "Understanding this file means you're one step closer to making computers understand text like magic! It's a key part in building your own AI projects.",
-    "Architecturally, this file exemplifies a standard training loop structure, relying on libraries like PyTorch and transformers. It’s streamlined but assumes familiarity with these tools."
+    "Architecturally, this file exemplifies a standard training loop structure, relying on libraries like PyTorch and transformers. It’s streamlined but assumes familiarity with these tools.",
+    "The 'train()' function immediately raises the question: why 'GPT2Tokenizer' for a GPT1 model? A senior dev might wonder about tokenizer compatibility and model architecture consistency."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
