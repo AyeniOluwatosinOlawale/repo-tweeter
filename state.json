@@ -1,5 +1,5 @@
 {
-  "fileIndex": 8,
+  "fileIndex": 9,
   "files": [
     "GPT1-Project/README.md",
     "pdf_scrape/notebooks/README.md",
@@ -18,15 +18,13 @@
     "uv.lock",
     "web_scrape/scrape_webpage.py"
   ],
-  "pendingTweets": [
-    "This training script is pivotal for the project, bridging data and model. Next, expect fine-tuning and deployment for real-world application, completing the machine learning lifecycle."
-  ],
-  "sentTweetsInFile": 19,
-  "totalSent": 178,
+  "pendingTweets": [],
+  "sentTweetsInFile": 0,
+  "totalSent": 179,
   "recentTweets": [
-    "In a production ML system, you'd expect more robust error handling, more elaborate logging strategies, and possibly distributed training to handle larger datasets efficiently.",
     "I'd refactor repeated 'torch.save' blocks into a dedicated function to reduce redundancy and potential errors. This would also improve maintainability and clarity in the code.",
-    "The author exhibits a practical engineering mindset, focusing on core functionality and efficient integration with existing tools. There's a clear emphasis on process over customization."
+    "The author exhibits a practical engineering mindset, focusing on core functionality and efficient integration with existing tools. There's a clear emphasis on process over customization.",
+    "This training script is pivotal for the project, bridging data and model. Next, expect fine-tuning and deployment for real-world application, completing the machine learning lifecycle."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
