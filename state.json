@@ -19,17 +19,16 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "In a production ML system, you'd expect more robust error handling, more elaborate logging strategies, and possibly distributed training to handle larger datasets efficiently.",
     "I'd refactor repeated 'torch.save' blocks into a dedicated function to reduce redundancy and potential errors. This would also improve maintainability and clarity in the code.",
     "The author exhibits a practical engineering mindset, focusing on core functionality and efficient integration with existing tools. There's a clear emphasis on process over customization.",
     "This training script is pivotal for the project, bridging data and model. Next, expect fine-tuning and deployment for real-world application, completing the machine learning lifecycle."
   ],
-  "sentTweetsInFile": 16,
-  "totalSent": 175,
+  "sentTweetsInFile": 17,
+  "totalSent": 176,
   "recentTweets": [
-    "Choosing 'torch.optim.AdamW' as an optimizer over, say, SGD, shows a trade-off favoring stability and performance. AdamW is apt for handling more complex architectures at the cost of simplicity.",
     "This file assumes 'CONFIG' is correctly set up, including paths and hyperparameters. Misconfigured 'CONFIG' could lead to failures across data loading, model setup, and training loop.",
-    "Subtle risk: checkpoint management. 'torch.save' can overwrite checkpoints without notice if paths clash, risking data loss. Consider implementing versioning for safer checkpoint handling."
+    "Subtle risk: checkpoint management. 'torch.save' can overwrite checkpoints without notice if paths clash, risking data loss. Consider implementing versioning for safer checkpoint handling.",
+    "In a production ML system, you'd expect more robust error handling, more elaborate logging strategies, and possibly distributed training to handle larger datasets efficiently."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
