@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The 'project_root' variable is important. It tells the code where the main directory of your project is, which helps locate files and resources needed to run the project.",
     "Think of activating a virtual environment like putting on a uniform before work. It ensures we use the correct tools and settings specific to our project, keeping everything organized.",
     "When you run this code, it first prepares the environment and then calls the 'train' function to start the actual task. It's like setting up a stage before the play begins.",
     "Let's break down 'sys.path.insert(0, project_root)'. 'sys.path' is like a list of places Python looks for code. 'insert(0, project_root)' puts our project's main folder at the very top of that list.",
@@ -37,12 +36,12 @@
     "The author's philosophy suggests a pragmatic approach, valuing simplicity and direct solutions like in-line virtual environment activation over more complex setups.",
     "This file is pivotal for the 'build-an-llm' project: it not only triggers model training but ensures the environment is ready, setting the stage for robust AI training. Next: optimization and scaling!"
   ],
-  "sentTweetsInFile": 3,
-  "totalSent": 182,
+  "sentTweetsInFile": 4,
+  "totalSent": 183,
   "recentTweets": [
-    "This file, 'run_training.py', is like the ignition switch for a car. It starts the process of training our AI model by calling functions defined elsewhere in the project.",
     "One key idea here is setting up 'sys.path'. This helps Python know where to find other parts of our project so that everything works together seamlessly, like connecting puzzle pieces.",
-    "The 'main' part of the file is straightforward. First, it sets up the environment, then it imports a 'train' function, and finally, it starts training the model. Think of it as a checklist before a machine starts working."
+    "The 'main' part of the file is straightforward. First, it sets up the environment, then it imports a 'train' function, and finally, it starts training the model. Think of it as a checklist before a machine starts working.",
+    "The 'project_root' variable is important. It tells the code where the main directory of your project is, which helps locate files and resources needed to run the project."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
