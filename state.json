@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "One key idea here is setting up 'sys.path'. This helps Python know where to find other parts of our project so that everything works together seamlessly, like connecting puzzle pieces.",
     "The 'main' part of the file is straightforward. First, it sets up the environment, then it imports a 'train' function, and finally, it starts training the model. Think of it as a checklist before a machine starts working.",
     "The 'project_root' variable is important. It tells the code where the main directory of your project is, which helps locate files and resources needed to run the project.",
     "Think of activating a virtual environment like putting on a uniform before work. It ensures we use the correct tools and settings specific to our project, keeping everything organized.",
@@ -39,12 +38,12 @@
     "The author's philosophy suggests a pragmatic approach, valuing simplicity and direct solutions like in-line virtual environment activation over more complex setups.",
     "This file is pivotal for the 'build-an-llm' project: it not only triggers model training but ensures the environment is ready, setting the stage for robust AI training. Next: optimization and scaling!"
   ],
-  "sentTweetsInFile": 1,
-  "totalSent": 180,
+  "sentTweetsInFile": 2,
+  "totalSent": 181,
   "recentTweets": [
-    "The author exhibits a practical engineering mindset, focusing on core functionality and efficient integration with existing tools. There's a clear emphasis on process over customization.",
     "This training script is pivotal for the project, bridging data and model. Next, expect fine-tuning and deployment for real-world application, completing the machine learning lifecycle.",
-    "This file, 'run_training.py', is like the ignition switch for a car. It starts the process of training our AI model by calling functions defined elsewhere in the project."
+    "This file, 'run_training.py', is like the ignition switch for a car. It starts the process of training our AI model by calling functions defined elsewhere in the project.",
+    "One key idea here is setting up 'sys.path'. This helps Python know where to find other parts of our project so that everything works together seamlessly, like connecting puzzle pieces."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
