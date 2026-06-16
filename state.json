@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Let's break down 'sys.path.insert(0, project_root)'. 'sys.path' is like a list of places Python looks for code. 'insert(0, project_root)' puts our project's main folder at the very top of that list.",
     "Beginners might struggle with understanding virtual environments. To get past it, remember that it's like a separate workspace where your project dependencies live. It's crucial for avoiding conflicts with other projects.",
     "This file shows an organized structure by separating functions into different files and directories. It teaches beginners the importance of modular design in real-world projects.",
     "Mastering this file is like learning to drive a car. Once you understand how to run the training script, you can explore and tweak other parts of the project confidently!",
@@ -34,12 +33,12 @@
     "The author's philosophy suggests a pragmatic approach, valuing simplicity and direct solutions like in-line virtual environment activation over more complex setups.",
     "This file is pivotal for the 'build-an-llm' project: it not only triggers model training but ensures the environment is ready, setting the stage for robust AI training. Next: optimization and scaling!"
   ],
-  "sentTweetsInFile": 6,
-  "totalSent": 185,
+  "sentTweetsInFile": 7,
+  "totalSent": 186,
   "recentTweets": [
-    "The 'project_root' variable is important. It tells the code where the main directory of your project is, which helps locate files and resources needed to run the project.",
     "Think of activating a virtual environment like putting on a uniform before work. It ensures we use the correct tools and settings specific to our project, keeping everything organized.",
-    "When you run this code, it first prepares the environment and then calls the 'train' function to start the actual task. It's like setting up a stage before the play begins."
+    "When you run this code, it first prepares the environment and then calls the 'train' function to start the actual task. It's like setting up a stage before the play begins.",
+    "Let's break down 'sys.path.insert(0, project_root)'. 'sys.path' is like a list of places Python looks for code. 'insert(0, project_root)' puts our project's main folder at the very top of that list."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
