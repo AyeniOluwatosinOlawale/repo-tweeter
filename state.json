@@ -19,18 +19,17 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Using 'exec' to run a script from Python behaves unpredictably if the script has side effects or if there's a syntax error. A check or try-except block might mitigate risks.",
     "The implementation uses 'exec', often avoided in production for security reasons. In real ML systems, virtual environments are typically activated outside the Python layer.",
     "Refactoring opportunity: externalize the virtual environment setup. Use shell scripts for activation, improving separation of concerns and reducing Python script complexity.",
     "The author's philosophy suggests a pragmatic approach, valuing simplicity and direct solutions like in-line virtual environment activation over more complex setups.",
     "This file is pivotal for the 'build-an-llm' project: it not only triggers model training but ensures the environment is ready, setting the stage for robust AI training. Next: optimization and scaling!"
   ],
-  "sentTweetsInFile": 15,
-  "totalSent": 194,
+  "sentTweetsInFile": 16,
+  "totalSent": 195,
   "recentTweets": [
-    "The execution of 'exec' is not performance-heavy, but relying on file I/O and execution within Python can add overhead compared to shell activation of environments.",
     "Opting to auto-activate a virtual environment in Python is intriguing. Alternatively, shell scripts could handle this; the author chose Python for cross-platform consistency.",
-    "This file assumes the virtual environment exists and is correctly configured. If these assumptions fail, the training might not start, leading to frustrating debugging."
+    "This file assumes the virtual environment exists and is correctly configured. If these assumptions fail, the training might not start, leading to frustrating debugging.",
+    "Using 'exec' to run a script from Python behaves unpredictably if the script has side effects or if there's a syntax error. A check or try-except block might mitigate risks."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
