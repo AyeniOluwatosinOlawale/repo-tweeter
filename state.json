@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The 'exec(open(_venv_path).read(), {\"__file__\": _venv_path})' line would catch an experienced dev's eye. It's a clever, albeit risky, way to activate a virtual environment.",
     "The execution of 'exec' is not performance-heavy, but relying on file I/O and execution within Python can add overhead compared to shell activation of environments.",
     "Opting to auto-activate a virtual environment in Python is intriguing. Alternatively, shell scripts could handle this; the author chose Python for cross-platform consistency.",
     "This file assumes the virtual environment exists and is correctly configured. If these assumptions fail, the training might not start, leading to frustrating debugging.",
@@ -29,12 +28,12 @@
     "The author's philosophy suggests a pragmatic approach, valuing simplicity and direct solutions like in-line virtual environment activation over more complex setups.",
     "This file is pivotal for the 'build-an-llm' project: it not only triggers model training but ensures the environment is ready, setting the stage for robust AI training. Next: optimization and scaling!"
   ],
-  "sentTweetsInFile": 11,
-  "totalSent": 190,
+  "sentTweetsInFile": 12,
+  "totalSent": 191,
   "recentTweets": [
-    "This file shows an organized structure by separating functions into different files and directories. It teaches beginners the importance of modular design in real-world projects.",
     "Mastering this file is like learning to drive a car. Once you understand how to run the training script, you can explore and tweak other parts of the project confidently!",
-    "This file reflects a modular design, separating concerns into discrete files: 'train()' in 'src/training/train.py'. The cost? Increased complexity managing cross-file dependencies."
+    "This file reflects a modular design, separating concerns into discrete files: 'train()' in 'src/training/train.py'. The cost? Increased complexity managing cross-file dependencies.",
+    "The 'exec(open(_venv_path).read(), {\"__file__\": _venv_path})' line would catch an experienced dev's eye. It's a clever, albeit risky, way to activate a virtual environment."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
