@@ -1,5 +1,5 @@
 {
-  "fileIndex": 9,
+  "fileIndex": 10,
   "files": [
     "GPT1-Project/README.md",
     "pdf_scrape/notebooks/README.md",
@@ -18,15 +18,13 @@
     "uv.lock",
     "web_scrape/scrape_webpage.py"
   ],
-  "pendingTweets": [
-    "This file is pivotal for the 'build-an-llm' project: it not only triggers model training but ensures the environment is ready, setting the stage for robust AI training. Next: optimization and scaling!"
-  ],
-  "sentTweetsInFile": 19,
-  "totalSent": 198,
+  "pendingTweets": [],
+  "sentTweetsInFile": 0,
+  "totalSent": 199,
   "recentTweets": [
-    "The implementation uses 'exec', often avoided in production for security reasons. In real ML systems, virtual environments are typically activated outside the Python layer.",
     "Refactoring opportunity: externalize the virtual environment setup. Use shell scripts for activation, improving separation of concerns and reducing Python script complexity.",
-    "The author's philosophy suggests a pragmatic approach, valuing simplicity and direct solutions like in-line virtual environment activation over more complex setups."
+    "The author's philosophy suggests a pragmatic approach, valuing simplicity and direct solutions like in-line virtual environment activation over more complex setups.",
+    "This file is pivotal for the 'build-an-llm' project: it not only triggers model training but ensures the environment is ready, setting the stage for robust AI training. Next: optimization and scaling!"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
