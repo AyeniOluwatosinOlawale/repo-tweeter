@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Let’s unpack this: 'lines = []' creates an empty list named 'lines'. It's like setting out an empty box to fill with letters. As the program processes text, it adds each clean line into this list.",
     "Beginners might struggle with understanding regular expressions in this file. They’re like secret codes used to find patterns in text. Take time to learn how they match sentences!",
     "This file shows beginners that big projects break tasks into small, manageable steps. By focusing on one task at a time, like refining data, you can build powerful systems piece by piece.",
     "By understanding this file, you'll gain insight into cleaning and preparing data — a crucial skill for any data-related project. It's like learning how to prepare ingredients before cooking a meal.",
@@ -34,12 +33,12 @@
     "The meticulous approach to filtering text reveals an engineering philosophy prioritizing data quality and pre-processing before model training. This is crucial for effective learning.",
     "This file is a cornerstone for cleaning data in the project, ensuring that the input for models is both high-quality and relevant. Next, focus might shift towards data augmentation or enrichment."
   ],
-  "sentTweetsInFile": 6,
-  "totalSent": 205,
+  "sentTweetsInFile": 7,
+  "totalSent": 206,
   "recentTweets": [
-    "The variable `DATA_DIR` is super important because it tells the program where your data lives. Without it, the program would be lost, just like you need an address to find a friend's house!",
     "Imagine the code as a vacuum cleaner: it picks up the 'dirty' text, separates sentences, and then sorts them into clean, neat files ready for use!",
-    "When the code runs, it reads text files, cleans each line by removing junk, and ensures everything is the right size and language. It then saves this polished text for later use."
+    "When the code runs, it reads text files, cleans each line by removing junk, and ensures everything is the right size and language. It then saves this polished text for later use.",
+    "Let’s unpack this: 'lines = []' creates an empty list named 'lines'. It's like setting out an empty box to fill with letters. As the program processes text, it adds each clean line into this list."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
