@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The variable `DATA_DIR` is super important because it tells the program where your data lives. Without it, the program would be lost, just like you need an address to find a friend's house!",
     "Imagine the code as a vacuum cleaner: it picks up the 'dirty' text, separates sentences, and then sorts them into clean, neat files ready for use!",
     "When the code runs, it reads text files, cleans each line by removing junk, and ensures everything is the right size and language. It then saves this polished text for later use.",
     "Let’s unpack this: 'lines = []' creates an empty list named 'lines'. It's like setting out an empty box to fill with letters. As the program processes text, it adds each clean line into this list.",
@@ -37,12 +36,12 @@
     "The meticulous approach to filtering text reveals an engineering philosophy prioritizing data quality and pre-processing before model training. This is crucial for effective learning.",
     "This file is a cornerstone for cleaning data in the project, ensuring that the input for models is both high-quality and relevant. Next, focus might shift towards data augmentation or enrichment."
   ],
-  "sentTweetsInFile": 3,
-  "totalSent": 202,
+  "sentTweetsInFile": 4,
+  "totalSent": 203,
   "recentTweets": [
-    "This file is like a data cleaner for text files! It goes through text, fixes errors, and makes sure everything is in good shape. Think of it as tidying up your room before guests come over.",
     "First, it checks where to find your data by looking for a file called 'pyproject.toml'. If it finds it, it knows the data is nearby. If not, it assumes it's where you are — it's like having a map and looking for landmarks.",
-    "The main function `load_txt_lines` reads text files, breaks them into lines, and tidies them up. It removes empty spaces and lines — like tidying a messy note into readable points."
+    "The main function `load_txt_lines` reads text files, breaks them into lines, and tidies them up. It removes empty spaces and lines — like tidying a messy note into readable points.",
+    "The variable `DATA_DIR` is super important because it tells the program where your data lives. Without it, the program would be lost, just like you need an address to find a friend's house!"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
