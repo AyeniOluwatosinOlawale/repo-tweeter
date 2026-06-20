@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The use of `_language_detector()` function with `lru_cache` aims for efficiency, but trades off memory usage. For memory-constrained environments, caching might need reconsideration.",
     "This file assumes the presence of certain directories and files ('data', 'pdf_scrape'). If these assumptions fail (e.g., missing files), the process could break. Adding error handling could help.",
     "A potential bug arises if the directory structure changes or if 'pyproject.toml' is misplaced. Adding logging and fail-safes can help trace issues quickly.",
     "In production, ML systems often rely on distributed processing for such text refinements to handle large-scale data efficiently. This script is more suited for smaller, local datasets.",
@@ -27,12 +26,12 @@
     "The meticulous approach to filtering text reveals an engineering philosophy prioritizing data quality and pre-processing before model training. This is crucial for effective learning.",
     "This file is a cornerstone for cleaning data in the project, ensuring that the input for models is both high-quality and relevant. Next, focus might shift towards data augmentation or enrichment."
   ],
-  "sentTweetsInFile": 13,
-  "totalSent": 212,
+  "sentTweetsInFile": 14,
+  "totalSent": 213,
   "recentTweets": [
-    "The architectural decision here relies on a multi-layer data filtering process. While effective, it can be costly due to multiple passes over the data. Consider batch processing to reduce overhead.",
     "In 'def split_sentences(text: str) -> List[str]:', a senior dev notices the use of type hints. This improves code readability and helps with maintaining the function's expected input and output.",
-    "Performance can take a hit as the code reads files sequentially, requiring all data to fit in memory. For large datasets, using lazy loading or streaming could be more efficient."
+    "Performance can take a hit as the code reads files sequentially, requiring all data to fit in memory. For large datasets, using lazy loading or streaming could be more efficient.",
+    "The use of `_language_detector()` function with `lru_cache` aims for efficiency, but trades off memory usage. For memory-constrained environments, caching might need reconsideration."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
