@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The architectural decision here relies on a multi-layer data filtering process. While effective, it can be costly due to multiple passes over the data. Consider batch processing to reduce overhead.",
     "In 'def split_sentences(text: str) -> List[str]:', a senior dev notices the use of type hints. This improves code readability and helps with maintaining the function's expected input and output.",
     "Performance can take a hit as the code reads files sequentially, requiring all data to fit in memory. For large datasets, using lazy loading or streaming could be more efficient.",
     "The use of `_language_detector()` function with `lru_cache` aims for efficiency, but trades off memory usage. For memory-constrained environments, caching might need reconsideration.",
@@ -30,12 +29,12 @@
     "The meticulous approach to filtering text reveals an engineering philosophy prioritizing data quality and pre-processing before model training. This is crucial for effective learning.",
     "This file is a cornerstone for cleaning data in the project, ensuring that the input for models is both high-quality and relevant. Next, focus might shift towards data augmentation or enrichment."
   ],
-  "sentTweetsInFile": 10,
-  "totalSent": 209,
+  "sentTweetsInFile": 11,
+  "totalSent": 210,
   "recentTweets": [
-    "Beginners might struggle with understanding regular expressions in this file. They’re like secret codes used to find patterns in text. Take time to learn how they match sentences!",
     "This file shows beginners that big projects break tasks into small, manageable steps. By focusing on one task at a time, like refining data, you can build powerful systems piece by piece.",
-    "By understanding this file, you'll gain insight into cleaning and preparing data — a crucial skill for any data-related project. It's like learning how to prepare ingredients before cooking a meal."
+    "By understanding this file, you'll gain insight into cleaning and preparing data — a crucial skill for any data-related project. It's like learning how to prepare ingredients before cooking a meal.",
+    "The architectural decision here relies on a multi-layer data filtering process. While effective, it can be costly due to multiple passes over the data. Consider batch processing to reduce overhead."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
