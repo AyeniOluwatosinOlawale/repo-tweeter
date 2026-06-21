@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "One main task here is to load text from files. It's like opening a series of books to a random page and copying the text for later use.",
     "The file starts by finding where your project files live on your computer. It’s like finding the main folder where all your work is saved.",
     "The 'DATA_DIR' variable is important because it tells the program where to look for text files. Without it, the program wouldn't know where your data is.",
     "Imagine the data files as books in a library, and this code is like a librarian who gathers sentences from each book to create a big collection.",
@@ -39,12 +38,12 @@
     "The file reflects an engineering ethos of early data cleaning and structured uploads, valuing transparency and reusability in model training datasets.",
     "This file’s completion sets a milestone: your text is ready to be shared and utilized in the AI community. Next steps could involve model creation and training!"
   ],
-  "sentTweetsInFile": 1,
-  "totalSent": 220,
+  "sentTweetsInFile": 2,
+  "totalSent": 221,
   "recentTweets": [
-    "The meticulous approach to filtering text reveals an engineering philosophy prioritizing data quality and pre-processing before model training. This is crucial for effective learning.",
     "This file is a cornerstone for cleaning data in the project, ensuring that the input for models is both high-quality and relevant. Next, focus might shift towards data augmentation or enrichment.",
-    "This file helps you upload text data to a site called Hugging Face. Think of it like sharing your favorite book notes with a library that others can visit and use for learning."
+    "This file helps you upload text data to a site called Hugging Face. Think of it like sharing your favorite book notes with a library that others can visit and use for learning.",
+    "One main task here is to load text from files. It's like opening a series of books to a random page and copying the text for later use."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
