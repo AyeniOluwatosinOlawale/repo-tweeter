@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Architecturally, this file bridges local data processing with a cloud-hosted platform, but it assumes Hugging Face is the only output option. Flexibility might be sacrificed.",
     "Looking at 'def load_txt_lines(data_dir: Path) -> List[str]:', you see type annotations guiding input/output expectations, a practice that enhances code readability and safety.",
     "Sorting text files with 'sorted(data_dir.glob(\"*.txt\"))' can be inefficient with a large number of files, especially if order isn’t crucial for processing.",
     "A trade-off: the metadata is hard-coded here. An alternative is dynamic retrieval, but that adds complexity and requires consistent data structures.",
@@ -30,12 +29,12 @@
     "The file reflects an engineering ethos of early data cleaning and structured uploads, valuing transparency and reusability in model training datasets.",
     "This file’s completion sets a milestone: your text is ready to be shared and utilized in the AI community. Next steps could involve model creation and training!"
   ],
-  "sentTweetsInFile": 10,
-  "totalSent": 229,
+  "sentTweetsInFile": 11,
+  "totalSent": 230,
   "recentTweets": [
-    "Beginners might find file paths tricky, but don't worry! To get past this, double-check where your files are saved on your computer.",
     "This file shows how projects handle data uniformly and keep metadata like author info in one spot. It's crucial for organized, scalable projects.",
-    "Understanding this file means you can now handle data and share it online, a big step towards building and sharing machine learning models!"
+    "Understanding this file means you can now handle data and share it online, a big step towards building and sharing machine learning models!",
+    "Architecturally, this file bridges local data processing with a cloud-hosted platform, but it assumes Hugging Face is the only output option. Flexibility might be sacrificed."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
