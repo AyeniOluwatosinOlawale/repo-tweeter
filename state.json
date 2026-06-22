@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "This file shows how projects handle data uniformly and keep metadata like author info in one spot. It's crucial for organized, scalable projects.",
     "Understanding this file means you can now handle data and share it online, a big step towards building and sharing machine learning models!",
     "Architecturally, this file bridges local data processing with a cloud-hosted platform, but it assumes Hugging Face is the only output option. Flexibility might be sacrificed.",
     "Looking at 'def load_txt_lines(data_dir: Path) -> List[str]:', you see type annotations guiding input/output expectations, a practice that enhances code readability and safety.",
@@ -32,12 +31,12 @@
     "The file reflects an engineering ethos of early data cleaning and structured uploads, valuing transparency and reusability in model training datasets.",
     "This file’s completion sets a milestone: your text is ready to be shared and utilized in the AI community. Next steps could involve model creation and training!"
   ],
-  "sentTweetsInFile": 8,
-  "totalSent": 227,
+  "sentTweetsInFile": 9,
+  "totalSent": 228,
   "recentTweets": [
-    "When the code runs, it reads text files, structures them for sharing, and sends them to Hugging Face — a bit like organizing notes and uploading them to a cloud.",
     "The line 'lines.append(s)' takes each sentence (s) that's been cleaned of spaces and adds it to a list called 'lines'. It’s like collecting cleaned snippets into a basket.",
-    "Beginners might find file paths tricky, but don't worry! To get past this, double-check where your files are saved on your computer."
+    "Beginners might find file paths tricky, but don't worry! To get past this, double-check where your files are saved on your computer.",
+    "This file shows how projects handle data uniformly and keep metadata like author info in one spot. It's crucial for organized, scalable projects."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
