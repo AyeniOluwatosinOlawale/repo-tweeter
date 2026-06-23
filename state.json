@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Sorting text files with 'sorted(data_dir.glob(\"*.txt\"))' can be inefficient with a large number of files, especially if order isn’t crucial for processing.",
     "A trade-off: the metadata is hard-coded here. An alternative is dynamic retrieval, but that adds complexity and requires consistent data structures.",
     "The file assumes the 'data' directory exists, which can break if it's missing. Consider adding directory creation logic to handle this scenario gracefully.",
     "Catching exceptions on 'path.read_text' addresses read errors but doesn’t retry or log them comprehensively, which risks silent failures in data loading.",
@@ -28,12 +27,12 @@
     "The file reflects an engineering ethos of early data cleaning and structured uploads, valuing transparency and reusability in model training datasets.",
     "This file’s completion sets a milestone: your text is ready to be shared and utilized in the AI community. Next steps could involve model creation and training!"
   ],
-  "sentTweetsInFile": 12,
-  "totalSent": 231,
+  "sentTweetsInFile": 13,
+  "totalSent": 232,
   "recentTweets": [
-    "Understanding this file means you can now handle data and share it online, a big step towards building and sharing machine learning models!",
     "Architecturally, this file bridges local data processing with a cloud-hosted platform, but it assumes Hugging Face is the only output option. Flexibility might be sacrificed.",
-    "Looking at 'def load_txt_lines(data_dir: Path) -> List[str]:', you see type annotations guiding input/output expectations, a practice that enhances code readability and safety."
+    "Looking at 'def load_txt_lines(data_dir: Path) -> List[str]:', you see type annotations guiding input/output expectations, a practice that enhances code readability and safety.",
+    "Sorting text files with 'sorted(data_dir.glob(\"*.txt\"))' can be inefficient with a large number of files, especially if order isn’t crucial for processing."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
