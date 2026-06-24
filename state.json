@@ -1,5 +1,5 @@
 {
-  "fileIndex": 11,
+  "fileIndex": 12,
   "files": [
     "GPT1-Project/README.md",
     "pdf_scrape/notebooks/README.md",
@@ -18,15 +18,13 @@
     "uv.lock",
     "web_scrape/scrape_webpage.py"
   ],
-  "pendingTweets": [
-    "This file’s completion sets a milestone: your text is ready to be shared and utilized in the AI community. Next steps could involve model creation and training!"
-  ],
-  "sentTweetsInFile": 19,
-  "totalSent": 238,
+  "pendingTweets": [],
+  "sentTweetsInFile": 0,
+  "totalSent": 239,
   "recentTweets": [
-    "Unlike many production environments where data pipelines automate uploads, this file relies on manual variable setup, limiting scalability and automation.",
     "Refactoring suggestion: encapsulate metadata in a data class to enhance clarity and maintainability. This isolates configuration from logic.",
-    "The file reflects an engineering ethos of early data cleaning and structured uploads, valuing transparency and reusability in model training datasets."
+    "The file reflects an engineering ethos of early data cleaning and structured uploads, valuing transparency and reusability in model training datasets.",
+    "This file’s completion sets a milestone: your text is ready to be shared and utilized in the AI community. Next steps could involve model creation and training!"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
