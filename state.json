@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "In 'main(file)', the code first tries to get text using 'pdf_extract'. If there’s no text, it uses OCR (Optical Character Recognition) with 'extract_text_with_ocr'.",
     "The 'file' parameter in these functions is the PDF you want to read. It's important because it tells the code which document to look at.",
     "Think of OCR as a superpower that lets the computer read images like a person reads a book. If the text can't be extracted normally, OCR saves the day!",
     "When you run the code, it checks if it can read the text. If it can't, it uses another method (OCR). Finally, it saves what it finds into a text file.",
@@ -38,12 +37,12 @@
     "This file reveals the author's practical approach: use existing libraries for robust solutions, prioritize functionality, and handle common error cases gracefully.",
     "This file is pivotal for text extraction in the project, linking raw PDF data to usable text. Next, consider optimizing or integrating with text analysis pipelines."
   ],
-  "sentTweetsInFile": 2,
-  "totalSent": 241,
+  "sentTweetsInFile": 3,
+  "totalSent": 242,
   "recentTweets": [
-    "This file’s completion sets a milestone: your text is ready to be shared and utilized in the AI community. Next steps could involve model creation and training!",
     "This file is like a magical tool that reads through PDF documents. It can extract text from PDFs so you can work with the words, not just the images.",
-    "Let's talk about 'pdf_extract(file)'. It's a function that reads each page of a PDF and pulls out the text line by line, much like how you'd read a book."
+    "Let's talk about 'pdf_extract(file)'. It's a function that reads each page of a PDF and pulls out the text line by line, much like how you'd read a book.",
+    "In 'main(file)', the code first tries to get text using 'pdf_extract'. If there’s no text, it uses OCR (Optical Character Recognition) with 'extract_text_with_ocr'."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
