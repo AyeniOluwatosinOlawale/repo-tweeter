@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The function 'def pdf_extract(file)' immediately highlights its reliance on 'pdfplumber' for text extraction. A senior dev sees potential for optimization or fallback use.",
     "Using 'pymupdf' and 'pytesseract' in 'extract_text_with_ocr' is computationally expensive. Large PDFs might lead to slow processing, especially with complex images.",
     "The choice to use OCR as a backup is interesting. It’s comprehensive but costly in performance. Alternatives might involve more sophisticated text extraction libraries.",
     "This file assumes PDFs are well-structured for 'pdfplumber'. If PDFs are poorly formatted or images-heavy, text extraction might fail, requiring more robust handling.",
@@ -29,12 +28,12 @@
     "This file reveals the author's practical approach: use existing libraries for robust solutions, prioritize functionality, and handle common error cases gracefully.",
     "This file is pivotal for text extraction in the project, linking raw PDF data to usable text. Next, consider optimizing or integrating with text analysis pipelines."
   ],
-  "sentTweetsInFile": 11,
-  "totalSent": 250,
+  "sentTweetsInFile": 12,
+  "totalSent": 251,
   "recentTweets": [
-    "This file teaches how a project can use multiple methods to achieve a goal, like getting text from PDFs using different techniques (text extraction and OCR).",
     "Once you get this file, you're on your way to automate text extraction tasks. It's a powerful skill that can make handling documents much easier!",
-    "This file reflects a dual approach in architecture: try 'pdf_extract' first, then fallback on OCR. It balances speed and accuracy but may increase processing time."
+    "This file reflects a dual approach in architecture: try 'pdf_extract' first, then fallback on OCR. It balances speed and accuracy but may increase processing time.",
+    "The function 'def pdf_extract(file)' immediately highlights its reliance on 'pdfplumber' for text extraction. A senior dev sees potential for optimization or fallback use."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
