@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Consider this line: 'os.makedirs('scraped_pages_pdf', exist_ok=True)'. It creates a folder named 'scraped_pages_pdf' unless it already exists.",
     "A beginner might find the use of libraries like 'pymupdf' or 'pytesseract' confusing. Start by reading the libraries’ documentation to understand their roles in the code.",
     "This file teaches how a project can use multiple methods to achieve a goal, like getting text from PDFs using different techniques (text extraction and OCR).",
     "Once you get this file, you're on your way to automate text extraction tasks. It's a powerful skill that can make handling documents much easier!",
@@ -34,12 +33,12 @@
     "This file reveals the author's practical approach: use existing libraries for robust solutions, prioritize functionality, and handle common error cases gracefully.",
     "This file is pivotal for text extraction in the project, linking raw PDF data to usable text. Next, consider optimizing or integrating with text analysis pipelines."
   ],
-  "sentTweetsInFile": 6,
-  "totalSent": 245,
+  "sentTweetsInFile": 7,
+  "totalSent": 246,
   "recentTweets": [
-    "The 'file' parameter in these functions is the PDF you want to read. It's important because it tells the code which document to look at.",
     "Think of OCR as a superpower that lets the computer read images like a person reads a book. If the text can't be extracted normally, OCR saves the day!",
-    "When you run the code, it checks if it can read the text. If it can't, it uses another method (OCR). Finally, it saves what it finds into a text file."
+    "When you run the code, it checks if it can read the text. If it can't, it uses another method (OCR). Finally, it saves what it finds into a text file.",
+    "Consider this line: 'os.makedirs('scraped_pages_pdf', exist_ok=True)'. It creates a folder named 'scraped_pages_pdf' unless it already exists."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
