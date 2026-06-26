@@ -19,15 +19,14 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "This file reveals the author's practical approach: use existing libraries for robust solutions, prioritize functionality, and handle common error cases gracefully.",
     "This file is pivotal for text extraction in the project, linking raw PDF data to usable text. Next, consider optimizing or integrating with text analysis pipelines."
   ],
-  "sentTweetsInFile": 18,
-  "totalSent": 257,
+  "sentTweetsInFile": 19,
+  "totalSent": 258,
   "recentTweets": [
-    "The handling of image conversion in 'extract_text_with_ocr' could lead to memory issues on large pages. Adding image downscaling might prevent oversized workloads.",
     "In production, PDFs can have varied structures. This implementation is a simplified approach. Real systems might require more adaptive methods based on content type.",
-    "The direct use of 'os.makedirs' for file creation is straightforward but could benefit from a utility function to manage file paths and ensure consistency."
+    "The direct use of 'os.makedirs' for file creation is straightforward but could benefit from a utility function to manage file paths and ensure consistency.",
+    "This file reveals the author's practical approach: use existing libraries for robust solutions, prioritize functionality, and handle common error cases gracefully."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
