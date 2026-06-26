@@ -19,18 +19,17 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The handling of image conversion in 'extract_text_with_ocr' could lead to memory issues on large pages. Adding image downscaling might prevent oversized workloads.",
     "In production, PDFs can have varied structures. This implementation is a simplified approach. Real systems might require more adaptive methods based on content type.",
     "The direct use of 'os.makedirs' for file creation is straightforward but could benefit from a utility function to manage file paths and ensure consistency.",
     "This file reveals the author's practical approach: use existing libraries for robust solutions, prioritize functionality, and handle common error cases gracefully.",
     "This file is pivotal for text extraction in the project, linking raw PDF data to usable text. Next, consider optimizing or integrating with text analysis pipelines."
   ],
-  "sentTweetsInFile": 15,
-  "totalSent": 254,
+  "sentTweetsInFile": 16,
+  "totalSent": 255,
   "recentTweets": [
-    "Using 'pymupdf' and 'pytesseract' in 'extract_text_with_ocr' is computationally expensive. Large PDFs might lead to slow processing, especially with complex images.",
     "The choice to use OCR as a backup is interesting. It’s comprehensive but costly in performance. Alternatives might involve more sophisticated text extraction libraries.",
-    "This file assumes PDFs are well-structured for 'pdfplumber'. If PDFs are poorly formatted or images-heavy, text extraction might fail, requiring more robust handling."
+    "This file assumes PDFs are well-structured for 'pdfplumber'. If PDFs are poorly formatted or images-heavy, text extraction might fail, requiring more robust handling.",
+    "The handling of image conversion in 'extract_text_with_ocr' could lead to memory issues on large pages. Adding image downscaling might prevent oversized workloads."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
