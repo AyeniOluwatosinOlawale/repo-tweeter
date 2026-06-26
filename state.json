@@ -18,13 +18,33 @@
     "uv.lock",
     "web_scrape/scrape_webpage.py"
   ],
-  "pendingTweets": [],
-  "sentTweetsInFile": 0,
-  "totalSent": 259,
+  "pendingTweets": [
+    "The file starts by importing necessary tools: some fetch the PDF from the web, others extract text, and even convert page images into words when needed.",
+    "The main function does a few things: downloads the PDF, tries to read text directly, uses OCR (like a camera for text) if needed, and saves everything nicely into a file.",
+    "There's a special part where the file grabs a PDF from online using a URL. It uses 'requests.get(url)' which is like asking the internet for a file politely.",
+    "Imagine trying to read a book: you first try to read the words directly, and if it's too blurry, you take a picture and then interpret the words. That's what this file does!",
+    "When you run this code, it fetches a PDF from the web, tries to read all the text, and if it can't, it uses OCR to 'see' the text. Finally, it saves what it found into a text file.",
+    "Look at this line: 'pdf_content = download_pdf(url)'. It means 'Let's get the PDF file from this address and call it pdf_content'. It's the start of our journey!",
+    "A beginner might struggle with understanding how 'OCR' works or why it's needed. Think of it as a backup plan for reading when the text can't be just copied.",
+    "This file shows beginners a common pattern: download, process, save. Real projects often break tasks into simple, focused steps like this.",
+    "Understanding this file helps beginners learn how to interact with the internet and handle PDF files in Python, opening doors to lots of projects involving text and files!",
+    "Architecturally, this file opts for downloading and processing PDFs in a linear fashion, which is simple but might be slow for large volumes.",
+    "Right away, the dual functions 'extract_text_from_pdf' and 'extract_text_with_ocr' show a clear separation of concerns in text extraction.",
+    "A hidden performance hit can occur due to OCR processing. It's CPU intensive and can slow down the system if handling many pages or large PDFs.",
+    "The choice to use PDFplumber first and OCR only if necessary is a sensible trade-off. However, it skips potential hybrid solutions combining both for better accuracy.",
+    "The file assumes that URLs provided are valid PDFs. If not, 'requests.get(url)' could fail, and the process halts without an error handling mechanism for invalid URLs.",
+    "A subtle risk is in 'pdfplumber.open(io.BytesIO(pdf_content))' — if PDF is corrupted or encrypted, it may throw an error. Adding try-except blocks would mitigate this.",
+    "In production ML systems, processing happens in parallel/batches. Here, each PDF's processed linearly which isn't optimal for large datasets.",
+    "Refactoring idea: break 'main()' into smaller functions for better readability and testing. Each function could handle a specific step (download, extract, save).",
+    "The author's use of existing libraries indicates a pragmatic approach: leveraging reliable tools to simplify complex tasks is a common practice in efficient engineering.",
+    "This file is crucial for ensuring that text data is ready for analysis in the project. Up next, optimizing workflows to handle larger sets more efficiently!"
+  ],
+  "sentTweetsInFile": 1,
+  "totalSent": 260,
   "recentTweets": [
-    "The direct use of 'os.makedirs' for file creation is straightforward but could benefit from a utility function to manage file paths and ensure consistency.",
     "This file reveals the author's practical approach: use existing libraries for robust solutions, prioritize functionality, and handle common error cases gracefully.",
-    "This file is pivotal for text extraction in the project, linking raw PDF data to usable text. Next, consider optimizing or integrating with text analysis pipelines."
+    "This file is pivotal for text extraction in the project, linking raw PDF data to usable text. Next, consider optimizing or integrating with text analysis pipelines.",
+    "Let's dive into a Python file that helps you download a PDF from the internet and extract text from it. If it can't read the text easily, it takes a picture of the page and reads it like we do! 📄"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
