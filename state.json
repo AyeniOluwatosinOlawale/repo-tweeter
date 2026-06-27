@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "When you run this code, it fetches a PDF from the web, tries to read all the text, and if it can't, it uses OCR to 'see' the text. Finally, it saves what it found into a text file.",
     "Look at this line: 'pdf_content = download_pdf(url)'. It means 'Let's get the PDF file from this address and call it pdf_content'. It's the start of our journey!",
     "A beginner might struggle with understanding how 'OCR' works or why it's needed. Think of it as a backup plan for reading when the text can't be just copied.",
     "This file shows beginners a common pattern: download, process, save. Real projects often break tasks into simple, focused steps like this.",
@@ -35,12 +34,12 @@
     "The author's use of existing libraries indicates a pragmatic approach: leveraging reliable tools to simplify complex tasks is a common practice in efficient engineering.",
     "This file is crucial for ensuring that text data is ready for analysis in the project. Up next, optimizing workflows to handle larger sets more efficiently!"
   ],
-  "sentTweetsInFile": 5,
-  "totalSent": 264,
+  "sentTweetsInFile": 6,
+  "totalSent": 265,
   "recentTweets": [
-    "The main function does a few things: downloads the PDF, tries to read text directly, uses OCR (like a camera for text) if needed, and saves everything nicely into a file.",
     "There's a special part where the file grabs a PDF from online using a URL. It uses 'requests.get(url)' which is like asking the internet for a file politely.",
-    "Imagine trying to read a book: you first try to read the words directly, and if it's too blurry, you take a picture and then interpret the words. That's what this file does!"
+    "Imagine trying to read a book: you first try to read the words directly, and if it's too blurry, you take a picture and then interpret the words. That's what this file does!",
+    "When you run this code, it fetches a PDF from the web, tries to read all the text, and if it can't, it uses OCR to 'see' the text. Finally, it saves what it found into a text file."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
