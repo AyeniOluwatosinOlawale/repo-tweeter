@@ -19,15 +19,14 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "The author's use of existing libraries indicates a pragmatic approach: leveraging reliable tools to simplify complex tasks is a common practice in efficient engineering.",
     "This file is crucial for ensuring that text data is ready for analysis in the project. Up next, optimizing workflows to handle larger sets more efficiently!"
   ],
-  "sentTweetsInFile": 18,
-  "totalSent": 277,
+  "sentTweetsInFile": 19,
+  "totalSent": 278,
   "recentTweets": [
-    "A subtle risk is in 'pdfplumber.open(io.BytesIO(pdf_content))' — if PDF is corrupted or encrypted, it may throw an error. Adding try-except blocks would mitigate this.",
     "In production ML systems, processing happens in parallel/batches. Here, each PDF's processed linearly which isn't optimal for large datasets.",
-    "Refactoring idea: break 'main()' into smaller functions for better readability and testing. Each function could handle a specific step (download, extract, save)."
+    "Refactoring idea: break 'main()' into smaller functions for better readability and testing. Each function could handle a specific step (download, extract, save).",
+    "The author's use of existing libraries indicates a pragmatic approach: leveraging reliable tools to simplify complex tasks is a common practice in efficient engineering."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
