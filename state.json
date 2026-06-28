@@ -19,16 +19,15 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Refactoring idea: break 'main()' into smaller functions for better readability and testing. Each function could handle a specific step (download, extract, save).",
     "The author's use of existing libraries indicates a pragmatic approach: leveraging reliable tools to simplify complex tasks is a common practice in efficient engineering.",
     "This file is crucial for ensuring that text data is ready for analysis in the project. Up next, optimizing workflows to handle larger sets more efficiently!"
   ],
-  "sentTweetsInFile": 17,
-  "totalSent": 276,
+  "sentTweetsInFile": 18,
+  "totalSent": 277,
   "recentTweets": [
-    "The file assumes that URLs provided are valid PDFs. If not, 'requests.get(url)' could fail, and the process halts without an error handling mechanism for invalid URLs.",
     "A subtle risk is in 'pdfplumber.open(io.BytesIO(pdf_content))' — if PDF is corrupted or encrypted, it may throw an error. Adding try-except blocks would mitigate this.",
-    "In production ML systems, processing happens in parallel/batches. Here, each PDF's processed linearly which isn't optimal for large datasets."
+    "In production ML systems, processing happens in parallel/batches. Here, each PDF's processed linearly which isn't optimal for large datasets.",
+    "Refactoring idea: break 'main()' into smaller functions for better readability and testing. Each function could handle a specific step (download, extract, save)."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
