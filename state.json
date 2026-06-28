@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Architecturally, this file opts for downloading and processing PDFs in a linear fashion, which is simple but might be slow for large volumes.",
     "Right away, the dual functions 'extract_text_from_pdf' and 'extract_text_with_ocr' show a clear separation of concerns in text extraction.",
     "A hidden performance hit can occur due to OCR processing. It's CPU intensive and can slow down the system if handling many pages or large PDFs.",
     "The choice to use PDFplumber first and OCR only if necessary is a sensible trade-off. However, it skips potential hybrid solutions combining both for better accuracy.",
@@ -30,12 +29,12 @@
     "The author's use of existing libraries indicates a pragmatic approach: leveraging reliable tools to simplify complex tasks is a common practice in efficient engineering.",
     "This file is crucial for ensuring that text data is ready for analysis in the project. Up next, optimizing workflows to handle larger sets more efficiently!"
   ],
-  "sentTweetsInFile": 10,
-  "totalSent": 269,
+  "sentTweetsInFile": 11,
+  "totalSent": 270,
   "recentTweets": [
-    "A beginner might struggle with understanding how 'OCR' works or why it's needed. Think of it as a backup plan for reading when the text can't be just copied.",
     "This file shows beginners a common pattern: download, process, save. Real projects often break tasks into simple, focused steps like this.",
-    "Understanding this file helps beginners learn how to interact with the internet and handle PDF files in Python, opening doors to lots of projects involving text and files!"
+    "Understanding this file helps beginners learn how to interact with the internet and handle PDF files in Python, opening doors to lots of projects involving text and files!",
+    "Architecturally, this file opts for downloading and processing PDFs in a linear fashion, which is simple but might be slow for large volumes."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
