@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "First up, the file starts with some important settings: 'version', 'revision', and 'requires-python'. Think of these like the operating instructions for your package list — they tell you how to read and use it.",
     "Next, 'resolution-markers' decide what package versions work with which Python versions and systems. For example, 'python_full_version >= '3.14' and sys_platform == 'win32'' runs only if both conditions are right.",
     "Let's zoom in on 'requires-python = \">=3.10\"'. This ensures you're using Python 3.10 or newer, just like needing a specific tool for a job. It's crucial because older tools might not work!",
     "Imagine your packages are like apps on your phone. The 'dependencies' list is like saying, 'To use App X, you also need Apps Y and Z'. It's all about making sure everything runs smoothly together.",
@@ -39,12 +38,12 @@
     "This file reveals the author's philosophy of precise control over dependencies, ensuring the environment is just right for the project by locking down specific versions.",
     "As we near the end of this journey, 'uv.lock' ties the project together by ensuring every piece is in its right place, paving the way for the final piece in understanding this system."
   ],
-  "sentTweetsInFile": 1,
-  "totalSent": 280,
+  "sentTweetsInFile": 2,
+  "totalSent": 281,
   "recentTweets": [
-    "The author's use of existing libraries indicates a pragmatic approach: leveraging reliable tools to simplify complex tasks is a common practice in efficient engineering.",
     "This file is crucial for ensuring that text data is ready for analysis in the project. Up next, optimizing workflows to handle larger sets more efficiently!",
-    "The 'uv.lock' file may seem complex, but at its core, it's just a list of Python packages your project needs to run, along with specific versions. It's like a recipe for a cake — you need the exact ingredients to get the right result!"
+    "The 'uv.lock' file may seem complex, but at its core, it's just a list of Python packages your project needs to run, along with specific versions. It's like a recipe for a cake — you need the exact ingredients to get the right result!",
+    "First up, the file starts with some important settings: 'version', 'revision', and 'requires-python'. Think of these like the operating instructions for your package list — they tell you how to read and use it."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
