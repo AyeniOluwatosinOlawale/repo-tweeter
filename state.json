@@ -1,5 +1,5 @@
 {
-  "fileIndex": 13,
+  "fileIndex": 14,
   "files": [
     "GPT1-Project/README.md",
     "pdf_scrape/notebooks/README.md",
@@ -18,15 +18,13 @@
     "uv.lock",
     "web_scrape/scrape_webpage.py"
   ],
-  "pendingTweets": [
-    "This file is crucial for ensuring that text data is ready for analysis in the project. Up next, optimizing workflows to handle larger sets more efficiently!"
-  ],
-  "sentTweetsInFile": 19,
-  "totalSent": 278,
+  "pendingTweets": [],
+  "sentTweetsInFile": 0,
+  "totalSent": 279,
   "recentTweets": [
-    "In production ML systems, processing happens in parallel/batches. Here, each PDF's processed linearly which isn't optimal for large datasets.",
     "Refactoring idea: break 'main()' into smaller functions for better readability and testing. Each function could handle a specific step (download, extract, save).",
-    "The author's use of existing libraries indicates a pragmatic approach: leveraging reliable tools to simplify complex tasks is a common practice in efficient engineering."
+    "The author's use of existing libraries indicates a pragmatic approach: leveraging reliable tools to simplify complex tasks is a common practice in efficient engineering.",
+    "This file is crucial for ensuring that text data is ready for analysis in the project. Up next, optimizing workflows to handle larger sets more efficiently!"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
