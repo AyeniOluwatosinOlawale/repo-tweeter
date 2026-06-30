@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "In the dependency list: 'dependencies = [ { name = \"huggingface-hub\" }, { name = \"numpy\", version = \"2.2.6\" } ]' — a senior dev recognizes the use of version pinning to prevent conflicts.",
     "The resolution of 'numpy' based on 'python_full_version' could impact performance if newer, optimized versions exist. The file locks specific versions which may not leverage new efficiencies.",
     "Trade-off: Using 'resolution-markers' ensures compatibility but introduces complexity. Alternatives like conditionals in a 'requirements.txt' could simplify but risk version mismatches.",
     "This file assumes a Python environment that respects 'resolution-markers'. If the environment doesn't enforce these, package versions might install incorrectly, causing runtime errors.",
@@ -29,12 +28,12 @@
     "This file reveals the author's philosophy of precise control over dependencies, ensuring the environment is just right for the project by locking down specific versions.",
     "As we near the end of this journey, 'uv.lock' ties the project together by ensuring every piece is in its right place, paving the way for the final piece in understanding this system."
   ],
-  "sentTweetsInFile": 11,
-  "totalSent": 290,
+  "sentTweetsInFile": 12,
+  "totalSent": 291,
   "recentTweets": [
-    "This 'uv.lock' file shows beginners how real projects handle dependencies: by meticulously specifying versions and conditions. This avoids surprises and ensures stability.",
     "Understanding 'uv.lock' unlocks the power of managing dependencies in large projects without chaos. It's a crucial step toward mastering professional software development!",
-    "The 'uv.lock' file reflects a consistent architecture for managing package versions. This approach helps avoid conflicts but at the cost of flexibility against future Python versions."
+    "The 'uv.lock' file reflects a consistent architecture for managing package versions. This approach helps avoid conflicts but at the cost of flexibility against future Python versions.",
+    "In the dependency list: 'dependencies = [ { name = \"huggingface-hub\" }, { name = \"numpy\", version = \"2.2.6\" } ]' — a senior dev recognizes the use of version pinning to prevent conflicts."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
