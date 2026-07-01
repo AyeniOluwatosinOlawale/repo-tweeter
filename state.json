@@ -19,19 +19,18 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "This file assumes a Python environment that respects 'resolution-markers'. If the environment doesn't enforce these, package versions might install incorrectly, causing runtime errors.",
     "Potential bug: The file assumes package resolution will always succeed. An edge case where a package is unavailable could break the install process. Consider adding error handling for robustness.",
     "Unlike many production ML systems that might use virtual environments for isolation, this file directly lists dependencies, which can be less isolated and more prone to conflicts.",
     "Refactoring idea: Simplify 'resolution-markers' by consolidating similar conditions. This could reduce duplication and make maintenance easier, as fewer conditions cover more cases.",
     "This file reveals the author's philosophy of precise control over dependencies, ensuring the environment is just right for the project by locking down specific versions.",
     "As we near the end of this journey, 'uv.lock' ties the project together by ensuring every piece is in its right place, paving the way for the final piece in understanding this system."
   ],
-  "sentTweetsInFile": 14,
-  "totalSent": 293,
+  "sentTweetsInFile": 15,
+  "totalSent": 294,
   "recentTweets": [
-    "In the dependency list: 'dependencies = [ { name = \"huggingface-hub\" }, { name = \"numpy\", version = \"2.2.6\" } ]' — a senior dev recognizes the use of version pinning to prevent conflicts.",
     "The resolution of 'numpy' based on 'python_full_version' could impact performance if newer, optimized versions exist. The file locks specific versions which may not leverage new efficiencies.",
-    "Trade-off: Using 'resolution-markers' ensures compatibility but introduces complexity. Alternatives like conditionals in a 'requirements.txt' could simplify but risk version mismatches."
+    "Trade-off: Using 'resolution-markers' ensures compatibility but introduces complexity. Alternatives like conditionals in a 'requirements.txt' could simplify but risk version mismatches.",
+    "This file assumes a Python environment that respects 'resolution-markers'. If the environment doesn't enforce these, package versions might install incorrectly, causing runtime errors."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
