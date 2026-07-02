@@ -18,13 +18,33 @@
     "uv.lock",
     "web_scrape/scrape_webpage.py"
   ],
-  "pendingTweets": [],
-  "sentTweetsInFile": 0,
-  "totalSent": 299,
+  "pendingTweets": [
+    "At the heart of this file is the idea of 'web scraping.' This means getting information from a website. It's like copying text from a page, but a computer does it super fast.",
+    "The main function grabs the webpage, gets the main text and links, and saves the text to a file. It repeats if there are more related pages to scrape.",
+    "One important variable is 'url'. It tells the program which webpage to look at. Without it, the program wouldn't know where to start!",
+    "Think of a webpage like a magazine. This code flips through and finds the best articles (text) and interesting ads (links) to save for you.",
+    "When you run the code, it fetches a page, figures out what's important, and saves it. It's like a robot librarian organizing info for you.",
+    "Let's decode: 'response = requests.get(url, headers=headers, timeout=30)' means download the page from 'url' using specific settings and wait 30 seconds before giving up.",
+    "A beginner might find the 'BeautifulSoup' library a bit tricky, as it's not obvious what it does. Think of it as a tool for organizing HTML like tidying up messy notes.",
+    "This file shows how a real project structures its tasks: defining what to do, setting rules, and looping through until the work is done. It's organized and efficient.",
+    "Understanding this file is like opening a door to the world of data collection and automation. It's a skill that lets you gather info from the vast internet efficiently.",
+    "Architecturally, this file leverages a breadth-first search (BFS) pattern for crawling. But it sacrifices depth control and prioritization of more important pages.",
+    "Examining 'def scrape_url(url: str) -> Tuple[str, List[str]]:' reveals it's structured for clarity. A senior dev will see the importance of returning both content and links here.",
+    "Performance caveat: the linear 'frontier' list can become a bottleneck. As pages increase, searching this list grows slower, impacting scraping speed.",
+    "A trade-off: using BeautifulSoup for parsing prioritizes ease over speed. Faster options exist, like lxml, but BeautifulSoup is friendlier for complex HTML structures.",
+    "This file assumes internet connectivity and up-to-date package installations. If requests or BeautifulSoup versions change, the code might break unexpectedly.",
+    "An edge case: malformed or slow-loading pages could still time out or crash the scraper. Implementing retries or error handling for specific exceptions would strengthen it.",
+    "In production ML systems, sophisticated crawlers handle dynamic content and respect robots.txt. This script is simpler but great for static pages.",
+    "A refactor idea: abstract the repeated score calculation logic in 'find_main_content_node' into a helper function for cleaner, DRY code.",
+    "The author's philosophy? Accessibility and utility. This file balances simplicity with capability, making scraping practical while keeping the codebase approachable.",
+    "This file wraps up the entire repo as a practical application of web scraping, showcasing Python's power in data automation. Next stop? Applying these skills to real-world data challenges!"
+  ],
+  "sentTweetsInFile": 1,
+  "totalSent": 300,
   "recentTweets": [
-    "Refactoring idea: Simplify 'resolution-markers' by consolidating similar conditions. This could reduce duplication and make maintenance easier, as fewer conditions cover more cases.",
     "This file reveals the author's philosophy of precise control over dependencies, ensuring the environment is just right for the project by locking down specific versions.",
-    "As we near the end of this journey, 'uv.lock' ties the project together by ensuring every piece is in its right place, paving the way for the final piece in understanding this system."
+    "As we near the end of this journey, 'uv.lock' ties the project together by ensuring every piece is in its right place, paving the way for the final piece in understanding this system.",
+    "This file 'scrape_webpage.py' is all about taking text from a webpage and saving it to a file. Think of it like taking notes from your favorite blog, but automatically!"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
