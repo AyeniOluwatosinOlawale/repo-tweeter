@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "One important variable is 'url'. It tells the program which webpage to look at. Without it, the program wouldn't know where to start!",
     "Think of a webpage like a magazine. This code flips through and finds the best articles (text) and interesting ads (links) to save for you.",
     "When you run the code, it fetches a page, figures out what's important, and saves it. It's like a robot librarian organizing info for you.",
     "Let's decode: 'response = requests.get(url, headers=headers, timeout=30)' means download the page from 'url' using specific settings and wait 30 seconds before giving up.",
@@ -37,12 +36,12 @@
     "The author's philosophy? Accessibility and utility. This file balances simplicity with capability, making scraping practical while keeping the codebase approachable.",
     "This file wraps up the entire repo as a practical application of web scraping, showcasing Python's power in data automation. Next stop? Applying these skills to real-world data challenges!"
   ],
-  "sentTweetsInFile": 3,
-  "totalSent": 302,
+  "sentTweetsInFile": 4,
+  "totalSent": 303,
   "recentTweets": [
-    "This file 'scrape_webpage.py' is all about taking text from a webpage and saving it to a file. Think of it like taking notes from your favorite blog, but automatically!",
     "At the heart of this file is the idea of 'web scraping.' This means getting information from a website. It's like copying text from a page, but a computer does it super fast.",
-    "The main function grabs the webpage, gets the main text and links, and saves the text to a file. It repeats if there are more related pages to scrape."
+    "The main function grabs the webpage, gets the main text and links, and saves the text to a file. It repeats if there are more related pages to scrape.",
+    "One important variable is 'url'. It tells the program which webpage to look at. Without it, the program wouldn't know where to start!"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
