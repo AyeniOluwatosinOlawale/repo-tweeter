@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Let's decode: 'response = requests.get(url, headers=headers, timeout=30)' means download the page from 'url' using specific settings and wait 30 seconds before giving up.",
     "A beginner might find the 'BeautifulSoup' library a bit tricky, as it's not obvious what it does. Think of it as a tool for organizing HTML like tidying up messy notes.",
     "This file shows how a real project structures its tasks: defining what to do, setting rules, and looping through until the work is done. It's organized and efficient.",
     "Understanding this file is like opening a door to the world of data collection and automation. It's a skill that lets you gather info from the vast internet efficiently.",
@@ -34,12 +33,12 @@
     "The author's philosophy? Accessibility and utility. This file balances simplicity with capability, making scraping practical while keeping the codebase approachable.",
     "This file wraps up the entire repo as a practical application of web scraping, showcasing Python's power in data automation. Next stop? Applying these skills to real-world data challenges!"
   ],
-  "sentTweetsInFile": 6,
-  "totalSent": 305,
+  "sentTweetsInFile": 7,
+  "totalSent": 306,
   "recentTweets": [
-    "One important variable is 'url'. It tells the program which webpage to look at. Without it, the program wouldn't know where to start!",
     "Think of a webpage like a magazine. This code flips through and finds the best articles (text) and interesting ads (links) to save for you.",
-    "When you run the code, it fetches a page, figures out what's important, and saves it. It's like a robot librarian organizing info for you."
+    "When you run the code, it fetches a page, figures out what's important, and saves it. It's like a robot librarian organizing info for you.",
+    "Let's decode: 'response = requests.get(url, headers=headers, timeout=30)' means download the page from 'url' using specific settings and wait 30 seconds before giving up."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
