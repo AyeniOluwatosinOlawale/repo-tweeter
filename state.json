@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "At the heart of this file is the idea of 'web scraping.' This means getting information from a website. It's like copying text from a page, but a computer does it super fast.",
     "The main function grabs the webpage, gets the main text and links, and saves the text to a file. It repeats if there are more related pages to scrape.",
     "One important variable is 'url'. It tells the program which webpage to look at. Without it, the program wouldn't know where to start!",
     "Think of a webpage like a magazine. This code flips through and finds the best articles (text) and interesting ads (links) to save for you.",
@@ -39,12 +38,12 @@
     "The author's philosophy? Accessibility and utility. This file balances simplicity with capability, making scraping practical while keeping the codebase approachable.",
     "This file wraps up the entire repo as a practical application of web scraping, showcasing Python's power in data automation. Next stop? Applying these skills to real-world data challenges!"
   ],
-  "sentTweetsInFile": 1,
-  "totalSent": 300,
+  "sentTweetsInFile": 2,
+  "totalSent": 301,
   "recentTweets": [
-    "This file reveals the author's philosophy of precise control over dependencies, ensuring the environment is just right for the project by locking down specific versions.",
     "As we near the end of this journey, 'uv.lock' ties the project together by ensuring every piece is in its right place, paving the way for the final piece in understanding this system.",
-    "This file 'scrape_webpage.py' is all about taking text from a webpage and saving it to a file. Think of it like taking notes from your favorite blog, but automatically!"
+    "This file 'scrape_webpage.py' is all about taking text from a webpage and saving it to a file. Think of it like taking notes from your favorite blog, but automatically!",
+    "At the heart of this file is the idea of 'web scraping.' This means getting information from a website. It's like copying text from a page, but a computer does it super fast."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
