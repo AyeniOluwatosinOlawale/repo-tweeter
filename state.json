@@ -19,7 +19,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Architecturally, this file leverages a breadth-first search (BFS) pattern for crawling. But it sacrifices depth control and prioritization of more important pages.",
     "Examining 'def scrape_url(url: str) -> Tuple[str, List[str]]:' reveals it's structured for clarity. A senior dev will see the importance of returning both content and links here.",
     "Performance caveat: the linear 'frontier' list can become a bottleneck. As pages increase, searching this list grows slower, impacting scraping speed.",
     "A trade-off: using BeautifulSoup for parsing prioritizes ease over speed. Faster options exist, like lxml, but BeautifulSoup is friendlier for complex HTML structures.",
@@ -30,12 +29,12 @@
     "The author's philosophy? Accessibility and utility. This file balances simplicity with capability, making scraping practical while keeping the codebase approachable.",
     "This file wraps up the entire repo as a practical application of web scraping, showcasing Python's power in data automation. Next stop? Applying these skills to real-world data challenges!"
   ],
-  "sentTweetsInFile": 10,
-  "totalSent": 309,
+  "sentTweetsInFile": 11,
+  "totalSent": 310,
   "recentTweets": [
-    "A beginner might find the 'BeautifulSoup' library a bit tricky, as it's not obvious what it does. Think of it as a tool for organizing HTML like tidying up messy notes.",
     "This file shows how a real project structures its tasks: defining what to do, setting rules, and looping through until the work is done. It's organized and efficient.",
-    "Understanding this file is like opening a door to the world of data collection and automation. It's a skill that lets you gather info from the vast internet efficiently."
+    "Understanding this file is like opening a door to the world of data collection and automation. It's a skill that lets you gather info from the vast internet efficiently.",
+    "Architecturally, this file leverages a breadth-first search (BFS) pattern for crawling. But it sacrifices depth control and prioritization of more important pages."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
