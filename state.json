@@ -19,18 +19,17 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "An edge case: malformed or slow-loading pages could still time out or crash the scraper. Implementing retries or error handling for specific exceptions would strengthen it.",
     "In production ML systems, sophisticated crawlers handle dynamic content and respect robots.txt. This script is simpler but great for static pages.",
     "A refactor idea: abstract the repeated score calculation logic in 'find_main_content_node' into a helper function for cleaner, DRY code.",
     "The author's philosophy? Accessibility and utility. This file balances simplicity with capability, making scraping practical while keeping the codebase approachable.",
     "This file wraps up the entire repo as a practical application of web scraping, showcasing Python's power in data automation. Next stop? Applying these skills to real-world data challenges!"
   ],
-  "sentTweetsInFile": 15,
-  "totalSent": 314,
+  "sentTweetsInFile": 16,
+  "totalSent": 315,
   "recentTweets": [
-    "Performance caveat: the linear 'frontier' list can become a bottleneck. As pages increase, searching this list grows slower, impacting scraping speed.",
     "A trade-off: using BeautifulSoup for parsing prioritizes ease over speed. Faster options exist, like lxml, but BeautifulSoup is friendlier for complex HTML structures.",
-    "This file assumes internet connectivity and up-to-date package installations. If requests or BeautifulSoup versions change, the code might break unexpectedly."
+    "This file assumes internet connectivity and up-to-date package installations. If requests or BeautifulSoup versions change, the code might break unexpectedly.",
+    "An edge case: malformed or slow-loading pages could still time out or crash the scraper. Implementing retries or error handling for specific exceptions would strengthen it."
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
