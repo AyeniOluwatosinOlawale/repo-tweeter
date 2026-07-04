@@ -1,5 +1,5 @@
 {
-  "fileIndex": 15,
+  "fileIndex": 16,
   "files": [
     "GPT1-Project/README.md",
     "pdf_scrape/notebooks/README.md",
@@ -18,15 +18,13 @@
     "uv.lock",
     "web_scrape/scrape_webpage.py"
   ],
-  "pendingTweets": [
-    "This file wraps up the entire repo as a practical application of web scraping, showcasing Python's power in data automation. Next stop? Applying these skills to real-world data challenges!"
-  ],
-  "sentTweetsInFile": 19,
-  "totalSent": 318,
+  "pendingTweets": [],
+  "sentTweetsInFile": 0,
+  "totalSent": 319,
   "recentTweets": [
-    "In production ML systems, sophisticated crawlers handle dynamic content and respect robots.txt. This script is simpler but great for static pages.",
     "A refactor idea: abstract the repeated score calculation logic in 'find_main_content_node' into a helper function for cleaner, DRY code.",
-    "The author's philosophy? Accessibility and utility. This file balances simplicity with capability, making scraping practical while keeping the codebase approachable."
+    "The author's philosophy? Accessibility and utility. This file balances simplicity with capability, making scraping practical while keeping the codebase approachable.",
+    "This file wraps up the entire repo as a practical application of web scraping, showcasing Python's power in data automation. Next stop? Applying these skills to real-world data challenges!"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
