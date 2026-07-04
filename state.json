@@ -21,7 +21,6 @@
     "web_scrape/scrape_webpage.py"
   ],
   "pendingTweets": [
-    "Starting with the README.md, this file is like the blueprint of the project. It explains what the project does, how to set it up, and how to contribute. If you're new, think of it as the project's user manual!",
     "The README introduces key concepts: LLMs are AI models that understand and generate human-like text. We're building one using Nigerian text data, which is unique and culturally rich.",
     "To get this project running, you need to 'clone' the repository. Think of this as downloading all the project files to your computer so you can start working with them. Instructions are provided in the README.",
     "Setting up a virtual environment is like creating a sandbox for your project. It keeps your project’s dependencies (like specific versions of Python libraries) separate from others on your system.",
@@ -41,10 +40,11 @@
     "The author's focus on Nigerian data highlights a commitment to diversity and localization in AI models. This philosophy of representation can be seen throughout the project's design.",
     "This README sets the stage for exploring the 'Build an LLM' project. Understanding it helps you set up the project correctly and prepares you to dig into building an AI model from scratch."
   ],
-  "sentTweetsInFile": 1,
-  "totalSent": 320,
+  "sentTweetsInFile": 2,
+  "totalSent": 321,
   "recentTweets": [
-    "Welcome to 'Build an LLM'! This repo guides you through building a Large Language Model from scratch, inspired by GPT-1. It's trained on Nigerian text data and is a great project to dive into AI. Follow along to understand every file!"
+    "Welcome to 'Build an LLM'! This repo guides you through building a Large Language Model from scratch, inspired by GPT-1. It's trained on Nigerian text data and is a great project to dive into AI. Follow along to understand every file!",
+    "Starting with the README.md, this file is like the blueprint of the project. It explains what the project does, how to set it up, and how to contribute. If you're new, think of it as the project's user manual!"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
