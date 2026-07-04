@@ -1,6 +1,7 @@
 {
-  "fileIndex": 16,
+  "fileIndex": 0,
   "files": [
+    "README.md",
     "GPT1-Project/README.md",
     "pdf_scrape/notebooks/README.md",
     ".gitignore",
@@ -13,18 +14,37 @@
     "GPT1-Project/scripts/run_training.py",
     "pdf_scrape/notebooks/01_Refine_Scraped_Data.ipynb",
     "pdf_scrape/notebooks/02_Upload_to_HuggingFace.ipynb",
+    "CHANGELOG.md",
     "pdf_scrape/scrape_local_pdf.py",
     "pdf_scrape/scraped_pdf.py",
     "uv.lock",
     "web_scrape/scrape_webpage.py"
   ],
-  "pendingTweets": [],
-  "sentTweetsInFile": 0,
-  "totalSent": 319,
+  "pendingTweets": [
+    "Starting with the README.md, this file is like the blueprint of the project. It explains what the project does, how to set it up, and how to contribute. If you're new, think of it as the project's user manual!",
+    "The README introduces key concepts: LLMs are AI models that understand and generate human-like text. We're building one using Nigerian text data, which is unique and culturally rich.",
+    "To get this project running, you need to 'clone' the repository. Think of this as downloading all the project files to your computer so you can start working with them. Instructions are provided in the README.",
+    "Setting up a virtual environment is like creating a sandbox for your project. It keeps your project’s dependencies (like specific versions of Python libraries) separate from others on your system.",
+    "Running 'python3 web_scrape/scrape_webpage.py' lets you collect data from online sources. Just feed it a website link, and it pulls text data, which is vital for training our language model.",
+    "Look at this line: 'git clone https://github.com/thekingslee/build-an-llm.git'. 'git clone' copies a repository from GitHub to your computer. The URL tells it which project to copy.",
+    "Newbies might struggle with 'virtual environments'. Remember: they're just a way to manage dependencies so different projects don't interfere with each other. Try following each step in the README carefully.",
+    "This README shows how a real project is structured: it has setup instructions, usage guides, and contribution notes. It's like a roadmap for both beginners and experienced developers.",
+    "Understanding this README means you're ready to dive into the actual code. It's the first step in contributing to or modifying this exciting project. Keep going!",
+    "The architectural choice here leans towards a monorepo setup. Everything lives under one roof, which simplifies dependency management, but can increase the complexity of navigation.",
+    "The function signature 'python3 web_scrape/scrape_webpage.py' is clear: it's a script for web scraping. A senior dev would spot that it probably uses libraries like BeautifulSoup or requests under the hood.",
+    "Running 'python3 -m venv venv' sets up a virtual environment. While efficient, it introduces overhead if not managed well, especially in larger projects with multiple dependencies.",
+    "The README's choice to use a virtual environment suggests a trade-off: ease of setup vs. potential for environment-specific bugs. Alternatives might include Docker for containerization.",
+    "This file assumes a Unix-like system for commands like 'source venv/bin/activate'. On Windows, this would change to '.venv\\Scripts\\activate', which could catch devs off-guard.",
+    "Potential bug risk: assuming everyone knows the importance of 'NB: Always remember the trailing '/'', which could lead to path-related errors if omitted. A code check might mitigate this.",
+    "In production ML systems, data handling is often more robust. Here, manual commands are used for scraping, while production would likely automate and monitor these processes.",
+    "Refactor suggestion: consolidate setup instructions with a Makefile or script. This reduces manual errors and streamlines onboarding for new developers.",
+    "The author's focus on Nigerian data highlights a commitment to diversity and localization in AI models. This philosophy of representation can be seen throughout the project's design.",
+    "This README sets the stage for exploring the 'Build an LLM' project. Understanding it helps you set up the project correctly and prepares you to dig into building an AI model from scratch."
+  ],
+  "sentTweetsInFile": 1,
+  "totalSent": 320,
   "recentTweets": [
-    "A refactor idea: abstract the repeated score calculation logic in 'find_main_content_node' into a helper function for cleaner, DRY code.",
-    "The author's philosophy? Accessibility and utility. This file balances simplicity with capability, making scraping practical while keeping the codebase approachable.",
-    "This file wraps up the entire repo as a practical application of web scraping, showcasing Python's power in data automation. Next stop? Applying these skills to real-world data challenges!"
+    "Welcome to 'Build an LLM'! This repo guides you through building a Large Language Model from scratch, inspired by GPT-1. It's trained on Nigerian text data and is a great project to dive into AI. Follow along to understand every file!"
   ],
   "repoInfo": {
     "name": "thekingslee/build-an-llm",
